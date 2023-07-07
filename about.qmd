@@ -1,0 +1,21 @@
+---
+title: "About"
+---
+
+## About me
+
+I am currently a scientific staff member and doctoral candidate at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. I am completing my doctoral work in the Psycholinguistics group under the supervision of Prof. Pia Knoeferle.
+
+After completing an Honours Specialist B.A. in Linguistics at the University of Toronto, I earned my TESOL certification and moved to Berlin to teach English at various companies and institutions, including the Humboldt-Universität zu Berlin. After some years I returned to academia by completing a joint Master's of Science as part of the European Master's in Clincal Linguistics (EMCL 2015-17 cohort) at the Univerisity of Eastern Finland, Univerisity of Potsdam (Germany), and Univerisity of Groningen (the Netherlands). I also hold a M.A. in Linguistics from the University of Eastern Finland, which was completed in tandem with my M.Sc.
+
+## Research interests
+
+My current projects investigate the influence of high-level knowledge of the real world on the processing of language. I am specifically interested in how this knowledge interacts with temporal information, such as verb tense. I use eye-tracking during reading, self-paced reading, and electroencephalography (EEG) in order to investigate this interaction. My interests are broader than my current research, and I welcome potential collaborators to reach out.
+
+## Outreach
+
+I am a co-founder and co-organiser of the Friday Primes, a monthly Berlin/Potsdam meet-up for PhDs and postdocs working on language processing.
+
+## Keywords
+
+psycholinguistics, language comprehension, eye-tracking during reading, self-paced reading, tense processing

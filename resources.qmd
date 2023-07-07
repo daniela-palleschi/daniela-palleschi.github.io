@@ -1,0 +1,12 @@
+---
+title: "Resources"
+---
+
+As researchers, it is important we plan and take into account how we analyse our data before we being data collection. I recommend the following resources for students looking to get started with linear mixed models (LMMs) in R, or for researchers looking to brush up on or expand their knowledge. If you've never analysed data using LMMs in R before, I'd recommend starting with the textbooks and tutorials listed. Otherwise, working through the list of "required reading" will ensure you're aware of the advantages but also pitfalls of LMMs. I plan to add resources for Bayesian analyses soon. Full disclosure: I'm still working through some of these materials myself.
+
+## Data Skills with R and RMarkdown
+
+- @wickham_r_nodate: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge
+- [DeBruine, L. (2022)](https://debruine.github.io/data-code-tips/)
+- Tierney (2019), *Tips for Sharing Code and Data.* [[E-book](https://njtierney.github.io/rmd4sci/)]
+- @

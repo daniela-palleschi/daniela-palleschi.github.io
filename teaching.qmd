@@ -1,0 +1,26 @@
+---
+title: "Teaching"
+---
+
+## Current courses
+
+- [Reproducible analyses for eye-tracking reading data](https://daniela-palleschi.github.io/repo-eda/) (M.A. Course)
+- *Angewandte Datenanalyse und -visualisierung* (B.A. Course)
+
+## Past courses
+
+```{r}
+pacman::p_load(tidyverse, knitr, kableExtra)
+
+tribble(
+  ~"Year", ~"Semester", ~"Course title", ~"Level",
+  "2022", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)",
+  "2020", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)",
+  "2019", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)",
+  "2018/19", "WiSe", "Introduction to Statistics for Linguistics with R and RStudio", "M.A.",
+  "2018", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)"
+) %>% 
+  kbl() %>% 
+  kable_styling()
+```
+
