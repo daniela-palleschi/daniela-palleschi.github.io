@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Daniela Palleschi">
+
+<title>website – intro</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">website</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://twitter.com/dpalleswho" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/daniela-palleschi/daniela-palleschi.github.io/">
+            Source Code
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#previous-literature" id="toc-previous-literature" class="nav-link" data-scroll-target="#previous-literature">Previous literature</a></li>
+  <li><a href="#our-findings-so-far" id="toc-our-findings-so-far" class="nav-link" data-scroll-target="#our-findings-so-far">Our findings so far</a></li>
+  <li><a href="#moving-forward-eeg" id="toc-moving-forward-eeg" class="nav-link" data-scroll-target="#moving-forward-eeg">Moving forward: EEG</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><div class="quarto-title-block"><div class="quarto-title-tools-only"><h1></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+
+
+
+<p><em>The following text (as well as the abstract) is taken from <span class="citation" data-cites="palleschi_activation_2022">(<a href="#ref-palleschi_activation_2022" role="doc-biblioref"><strong>palleschi_activation_2022?</strong></a>)</span> Intro and Discussion sections, and some from DP’s dissertation</em></p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<section id="previous-literature" class="level2">
+<h2 class="anchored" data-anchor-id="previous-literature">Previous literature</h2>
+<p>Investigations into the role of high-level world knowledge in language processing have established that violations of long-term knowledge elicit processing costs. In their seminal study, <span class="citation" data-cites="Hagoort2004">(<a href="#ref-Hagoort2004" role="doc-biblioref"><strong>Hagoort2004?</strong></a>)</span> presented neurophsyiological evidence of the influence of specific knowledge of the world on language processing, in which violations of world knowledge elicited an N400 effect which was similar in latency and distribution to semantic violations, but with a reduced amplitude (e.g., <em>Dutch trains are</em> <strong><em>yellow/white/sour</em></strong>; Dutch trains are in fact yellow). Since this study, similar findings have been found for other types of lexico-semantic world knowledge violations of well-known historical events <span class="citation" data-cites="Nieuwland2012 Rapp2008">(<a href="#ref-Nieuwland2012" role="doc-biblioref"><strong>Nieuwland2012?</strong></a>; <a href="#ref-Rapp2008" role="doc-biblioref"><strong>Rapp2008?</strong></a>)</span>, traits of familiar cartoon characters <span class="citation" data-cites="Filik2008 Filik2013">(<a href="#ref-Filik2008" role="doc-biblioref"><strong>Filik2008?</strong></a>; <a href="#ref-Filik2013" role="doc-biblioref"><strong>Filik2013?</strong></a>)</span>, even knowledge specific to the Wizarding World of Harry Potter <span class="citation" data-cites="Troyer2018">(<a href="#ref-Troyer2018" role="doc-biblioref"><strong>Troyer2018?</strong></a>)</span>.</p>
+<p><span class="citation" data-cites="Troyer2018">(<a href="#ref-Troyer2018" role="doc-biblioref"><strong>Troyer2018?</strong></a>)</span> compared semantic violations of a fictional world (the Wizarding World of Harry Potter) with those of the real-world, reporting similar N400 effects in both types of prior knowledge. Furthermore, N400 effects were graded by participant’s Harry Potter expertise, with Harry Potter violations eliciting larger N400 effects in participants highly familiar with the Wizarding World of Harry Potter. Participants who scored very low in their Harry Potter familiarity showed no N400 effects in the Harry Potter violations, with no differences between participants in real-world semantic violations as a function of their Harry Potter familiarity. This effect was replicated and extended to event-related words in <span class="citation" data-cites="Troyer2020 Troyer2020a Troyer2022">(<a href="#ref-Troyer2020" role="doc-biblioref"><strong>Troyer2020?</strong></a>; see also <a href="#ref-Troyer2020a" role="doc-biblioref"><strong>Troyer2020a?</strong></a>; <a href="#ref-Troyer2022" role="doc-biblioref"><strong>Troyer2022?</strong></a>)</span>. Similar to <span class="citation" data-cites="Metusalem2012">(<a href="#ref-Metusalem2012" role="doc-biblioref"><strong>Metusalem2012?</strong></a>)</span>, <span class="citation" data-cites="Troyer2020">(<a href="#ref-Troyer2020" role="doc-biblioref"><strong>Troyer2020?</strong></a>)</span> manipulated whether incongruent words were event-related (<em>broomstick</em>) or event-unrelated (<em>dog</em>) to the congruent word (<em>remembrall</em>; <a href="#exm-troyer">Example&nbsp;1</a>]{ex. <span class="math inline">\(\ref{troyer}\)</span>}). Again, individual differences in N400 effects emerged as a function of Harry Potter familiarity for the Harry Potter-related sentences and not for real-world sentences. This indicates that domain-specific familiarity relevant to the incoming linguistic signal is utilised during comprehension. In other words, the presence of relevant prior knowledge influences the processing of linguistic input, and that unexpected words that are related (<em>broomstick</em>) to the event elicit smaller processing costs than unexpected words that are unrelated to the event (<em>dog</em>).</p>
+<div id="exm-troyer" class="custom theorem example">
+<p><span class="theorem-title"><strong>Example 1 </strong></span>Professor McGonagall recruits Harry for the Gryffindor Quidditch team. She saw him save Neville’s <em>remembrall</em><sub>correct</sub>/<em>broomstick</em><sub>event-related</sub>/<em>dog</em><sub>event-unrelated</sub>.</p>
+</div>
+<p>It seems then that prior knowledge of both the real-world and fictional worlds, as well as historical and fictional events, is rapidly available during processing of lexico-semantic input, and that linguistic contexts can interact with this prior knowledge. However, how we define <em>knowledge</em> of real-world events is not trivial, as there is likely both inter- and intra-individual variation when it comes to common knowledge. Though most individuals would say they <em>know</em> the Earth is round and that Elvis Presley is dead, there are some who would say they <em>know</em>, or perhaps <em>believe</em>, the Earth is flat and that Elvis Presley is alive. To explore trial-level effects of prior-Harry Potter knowledge, <span class="citation" data-cites="Troyer2020a">(<a href="#ref-Troyer2020a" role="doc-biblioref"><strong>Troyer2020a?</strong></a>)</span> presented ‘correct’ sentences (i.e., there were no violation conditions) and collected post-trial participant responses indicating familiarity with the information presented (yes or no). When trials were grouped by response, ‘<em>no</em>’ trials (i.e., trials that presented information the participant did not already know) elicited increased N400 amplitudes compared to ‘<em>yes</em>’ trials (i.e., trials that presented information the participant already knew). Futhermore, N400 effects in ‘<em>no</em>’ trials were marginally stronger in participants with a low Harry Potter-familiarity score than those with a high score. The authors took this as evidence that “greater knowledge eases otherwise difficult retrieval processes” <span class="citation" data-cites="Troyer2020">(<a href="#ref-Troyer2020" role="doc-biblioref"><strong>Troyer2020?</strong></a>)</span>.</p>
+<p>Likewise, <span class="citation" data-cites="Martin2014">(<a href="#ref-Martin2014" role="doc-biblioref"><strong>Martin2014?</strong></a>)</span> presented participants with sentences describing real-world facts (e.g., <a href="#exm-martin2014">Example&nbsp;2</a>), with world knowledge violations (<em>lawyers</em>) or semantic violations <em>horses</em>. Similar to <span class="citation" data-cites="Troyer2020a">(<a href="#ref-Troyer2020a" role="doc-biblioref"><strong>Troyer2020a?</strong></a>)</span>, truth ratings of the items were collected in a surprise post-experimental task where participants indicated whether they believed each sentence was (a) true, (b) false, (c) that they didn’t know, or (d) that they couldn’t tell because the sentence was nonsensical, with an overall accuracy of 85.6%. The authors used this information to compare P2 and N400 time-windows between trials containing semantic violations, trials that received a ‘<em>don’t know</em>’ response, and trials that presented correct sentences and received a ‘true’ response.</p>
+<div id="exm-martin2014" class="custom theorem example">
+<p><span class="theorem-title"><strong>Example 2 </strong></span>The Beatles were <em><u>popstars</u>/<u>lawyers</u>/<u>horses</u></em> in the 60’s.</p>
+</div>
+<p>In the P2 window, ‘<em>don’t know</em>’ trials patterned with semantic violations, eliciting an increased positivity compared to ‘<em>true</em>’ condition. In the N400 time-window, ‘<em>don’t know</em>’ trials did not differ from the ‘<em>true</em>’ condition nor the semantic violation condition. Therefore, the P2 was sensitive to semantic violations and the inability to check plausibility when participants did not know, but the N400 was sensitive to semantic and world-knowledge violations, but not the inability to check plausibility. Importantly, these results show processing differences between trials where participants ‘<em>don’t know</em>’ if a sentence is true or even plausible and trials where sentences are known to be true, as indicated by differences in the P2 time-window.</p>
+<p>However, our individual knowledge does not only vary in terms of factual knowledge of the world that is commonly shared in a community or culture. We each have our own individual ethical beliefs (<a href="#exm-vanBerkum2009">Example&nbsp;3</a>) and personal semantics (knowledge about one’s own personal preferences, <a href="#exm-Coronel2016">Example&nbsp;4</a>). Each of these can modulate expectations during comprehension in a similar manner to long-term world knowledge, eliciting N400 effects. In <span class="citation" data-cites="vanBerkum2009">(<a href="#ref-vanBerkum2009" role="doc-biblioref"><strong>vanBerkum2009?</strong></a>)</span> participants were presented statements that were either congruent or incongruent with their personal moral beliefs about divisive topics (<a href="#exm-vanBerkum2009">Example&nbsp;3</a>). Likewise, <span class="citation" data-cites="Coronel2016">(<a href="#ref-Coronel2016" role="doc-biblioref"><strong>Coronel2016?</strong></a>)</span> presented participants with sentences that either matched or mismatched statements describing their own personal preferences (<a href="#exm-Coronel2016">Example&nbsp;4</a>). In both experiments, increased N400 amplitudes were elicited by critical words that violated the participant’s personal beliefs <span class="citation" data-cites="vanBerkum2009">(<a href="#ref-vanBerkum2009" role="doc-biblioref"><strong>vanBerkum2009?</strong></a>)</span> or personal semantics <span class="citation" data-cites="Coronel2016">(<a href="#ref-Coronel2016" role="doc-biblioref"><strong>Coronel2016?</strong></a>)</span>.</p>
+<div id="exm-vanBerkum2009" class="custom theorem example">
+<p><span class="theorem-title"><strong>Example 3 </strong></span>I think the increasing emancipation of women is a negative/positive development.</p>
+</div>
+<div id="exm-Coronel2016" class="custom theorem example">
+<p><span class="theorem-title"><strong>Example 4 </strong></span>A genre of film you like watching is horror/fantasy.</p>
+</div>
+<p>Prior (world) knowledge seems then to guide expectations and to be rapidly available during comprehension, with inter- and intra-individual knowledge playing a role in a case-by-case basis. A variety of sources of information, from narrative contexts <span class="citation" data-cites="Nieuwland2006">(e.g., <a href="#ref-Nieuwland2006" role="doc-biblioref"><strong>Nieuwland2006?</strong></a>)</span> to long-term knowledge of fictional worlds <span class="citation" data-cites="Troyer2018 Troyer2020 Troyer2020a Filik2013">(<a href="#ref-Troyer2018" role="doc-biblioref"><strong>Troyer2018?</strong></a>; <a href="#ref-Troyer2020" role="doc-biblioref"><strong>Troyer2020?</strong></a>; <a href="#ref-Troyer2020a" role="doc-biblioref"><strong>Troyer2020a?</strong></a>; <a href="#ref-Filik2013" role="doc-biblioref"><strong>Filik2013?</strong></a>)</span> or the real-world <span class="citation" data-cites="Hagoort2004 Hald2007 Metzner2015 Martin2014">(<a href="#ref-Hagoort2004" role="doc-biblioref"><strong>Hagoort2004?</strong></a>; <a href="#ref-Hald2007" role="doc-biblioref"><strong>Hald2007?</strong></a>; <a href="#ref-Metzner2015" role="doc-biblioref"><strong>Metzner2015?</strong></a>; <a href="#ref-Martin2014" role="doc-biblioref"><strong>Martin2014?</strong></a>)</span>, have been shown to be rapidly available during comprehension. Violations of this knowledge elicits early effects in EEG (N400 component) and eye-tracking during reading (first-fixation, first-pass reading time). Unsurprisingly, processing costs are positively correlated with our domain-specific knowledge <span class="citation" data-cites="Troyer2018">(<a href="#ref-Troyer2018" role="doc-biblioref"><strong>Troyer2018?</strong></a>)</span> and the presence of sentence-specific knowledge <span class="citation" data-cites="Troyer2020a Martin2014">(<a href="#ref-Troyer2020a" role="doc-biblioref"><strong>Troyer2020a?</strong></a>; <a href="#ref-Martin2014" role="doc-biblioref"><strong>Martin2014?</strong></a>)</span>. Contradictions of our own personal morals and preferences elicit similar effects <span class="citation" data-cites="Coronel2016 vanBerkum2009">(<a href="#ref-Coronel2016" role="doc-biblioref"><strong>Coronel2016?</strong></a>; <a href="#ref-vanBerkum2009" role="doc-biblioref"><strong>vanBerkum2009?</strong></a>)</span>, suggesting that it is not only our shared knowledge of the world that influences language processing, but what the comprehender holds to be true. However, all these studies manipulated whether a lexical item was supported or not. The next section gives an overview of investigations into how general world knowledge and morphosyntactic information can guide anticipation during comprehension.</p>
+<p>These studies have demonstrated that high-level world knowledge can influence the processing of lexico-semantic input when world knowledge is activated through linguistic contexts. Meanwhile, faces of familiar individuals can activate long-term semantic knowledge about the individual, whether they be real-world cultural figures <span class="citation" data-cites="AbdelRahman2002 Suess2013">(<a href="#ref-AbdelRahman2002" role="doc-biblioref"><strong>AbdelRahman2002?</strong></a>; <a href="#ref-Suess2013" role="doc-biblioref"><strong>Suess2013?</strong></a>)</span> or well-known cartoon characters <span class="citation" data-cites="AbdelRahman2004">(<a href="#ref-AbdelRahman2004" role="doc-biblioref"><strong>AbdelRahman2004?</strong></a>)</span>. Characteristics of unknown speakers have also been shown to be taken into consideration during comprehension. For example, in <span class="citation" data-cites="vanBerkum2008">(<a href="#ref-vanBerkum2008" role="doc-biblioref"><strong>vanBerkum2008?</strong></a>)</span> an N400 effect was elicited when participants heard statements that violated stereotypes of the speaker based on their voice (e.g., an adult male vs.&nbsp;female voice: <em>If only I looked like</em> <strong><em>Britney Spears</em></strong> <em>in her latest video</em>). Meanwhile, inferences about speaker nativeness, based on phsyical features of unknown faces and accompanying native or non-native accented speech, can additionally influence on-line processing of linguistic input, as well as well-formedness judgements <span class="citation" data-cites="Xu2019">(<a href="#ref-Xu2019" role="doc-biblioref"><strong>Xu2019?</strong></a>)</span>. The rapid effects elicited by physical referent or speaker attributes indicate that what we believe to be true about an individual is rapidly available during language comprehension, whether these beliefs are based on long-term information of a known individual, or stereotypes based on demographic assumptions, like gender. Though a variety of types and sources of long-term knowledge have been investigated, such investigations have thus far focused on lexico-semantic violations activated by linguistic contexts establishing expectations based on real-world knowledge. Less is known about how long-term knowledge influences the processing of morphosyntactic relations, and how this long-term knowledge may be activated by non-linguistic contexts, such as pictures of cultural figures.</p>
+</section>
+<section id="our-findings-so-far" class="level2">
+<h2 class="anchored" data-anchor-id="our-findings-so-far">Our findings so far</h2>
+<p>In two eye-tracking during reading experiments we examined whether high-level information about well-known cultural figures, such as politicians and actors, is activated via a picture and available during subsequent language processing. Namely, we explored to what extent knowledge of a cultural figure’s lifetime influences the processing of a given year, and whether high-level knowledge of their professional accomplishments is activated by a picture and available during sentence processing. We explored to what extent these two types of information, temporal (‘year’) and referential (‘fact’), are activated by a photograph of a given person and subsequently available during processing. Sentences presented information that either matched or mismatched the lifetime of the cultural figure via a year, and matched or mismatched their professional accomplishments, such as appearing in a certain film. One might assume that a speaker’s face could be a strong cue to factual information associated with that speaker (e.g., what films an actress has starred in and whether she has won awards or not). Further, given the subtlety of tense effects observed in eye-tracking experiments <span class="citation" data-cites="Knoeferle2005 Altmann2007 Altmann2009">(e.g., <a href="#ref-Knoeferle2005" role="doc-biblioref"><strong>Knoeferle2005?</strong></a>, Exp 1; <a href="#ref-Altmann2007" role="doc-biblioref"><strong>Altmann2007?</strong></a>; <a href="#ref-Altmann2009" role="doc-biblioref"><strong>Altmann2009?</strong></a>)</span>, it may be that associations between seeing a speaker and facts about that speaker would be more influential in comprehension than associations that implicate time and perhaps lifetime status, following previous findings of processing preferences in clipart scenes <span class="citation" data-cites="Knoeferle2007">(<a href="#ref-Knoeferle2007" role="doc-biblioref"><strong>Knoeferle2007?</strong></a>)</span>. Alternatively, factual knowledge (e.g., the books an author wrote, the films an actor starred in) is more probabilistic in its association with language than the arguably more binary life status information associated with a speaker’s face. When seeing Emma Watson, one may start to think of multiple associations, among them Harry Potter, and wands, but also of “The Beauty and the Beast”, and “The Perks of Being a Wallflower”. Given the many facts an individual may know about a certain cultural figure, each specific fact may be less readily accessible and thus less influential during processing. For life status, by contrast, the associated information is likely binary (alive or not in a given year). If the uniqueness of a cue matters, then accessing information based on a face cue should be easier for binary cues than facts that are part of a larger category of information (e.g., all the films someone has starred in). Evidence of rapid effects of prior long-term knowledge from previous studies <span class="citation" data-cites="Hagoort2004">(e.g., <a href="#ref-Hagoort2004" role="doc-biblioref"><strong>Hagoort2004?</strong></a>)</span> suggest that, in the presence of long-term knowledge about the cultural figures, violations of such prior knowledge should elicit processing costs. The present study therefore extends the previous findings of rapid effects for violations of high-level world knowledge <span class="citation" data-cites="Hagoort2004">(e.g., <a href="#ref-Hagoort2004" role="doc-biblioref"><strong>Hagoort2004?</strong></a>)</span> to violations of prior knowledge about a given well-known figure (activated by their picture) and temporal lifetime and factual accomplishment information.</p>
+<p>We presented participants with pictures of well-known cultural figures, followed by sentences in which the cultural figure describes an accomplishment (“fact”) of theirs, as well as the year it happened. We manipulated whether the fact and year were true for the cultural figure or not. We expected to find early effects of <em>year</em> and <em>fact</em> congruence at the respective regions reflecting the influence of long-term knowledge prompted by the trial-initial picture, and later/cumulative effects at these regions reflecting the influence of the later <em>name</em> region. Differences in the emergence and size of <em>year congruence</em> and <em>fact congruence</em> effects were also of interest, with implications for processing preferences for temporal (<em>year</em>) versus referential (<em>fact</em>) processes. Lastly, effects were expected to be present in the data filtered for accurate long-term knowledge, and to be absent or smaller in the unfiltered data, reflecting the effect of long-term knowledge present in the filtered data.</p>
+<p>As expected, main effects of both <strong>year</strong> and <strong>fact congruence</strong> emerged in <strong>first-pass reading time</strong> and <strong>total reading times</strong> at their relative regions in filtered analyses. This suggests each type of information was rapidly available after presentation of a picture of a well-known speaker (first-pass reading time), and that violations of this information were not quickly resolved (total reading time). However, effects of <strong>fact congruence</strong> at the <em>name</em> region were present in unfiltered data (but not filtered data), with no effects of <strong>year congruence</strong>. This suggests asymmetries in the processing of the two types of information when prior world knowledge is more variable. The observed effect differences could be attributed to a preference for attending to referential relations (<em>fact</em> region), compared to temporal relations (<em>year</em> region) when encountering contrasting information, such as long-term information activated by the <em>name</em> region in unfiltered trials. While a given year requires some temporal relations be computed for a cultural figure’s lifetime, preferential attention may have been given to <em>fact</em>-<em>name</em> relations at name presentation when the picture was not recognised, leading to the <em>fact congruence</em> effects at the <em>name</em> region (e.g., <em>2018</em>…<em>the song</em> <strong><em>I Shot the Sheriff</em></strong>…<em>John Lennon</em>).</p>
+<p>This leads to the last research question, in which we were interested in investigating the role of long-term knowledge in the processing of temporal and factual relations to a given cultural figure. <span class="citation" data-cites="Troyer2018">(<a href="#ref-Troyer2018" role="doc-biblioref"><strong>Troyer2018?</strong></a>)</span> reported individual-level differences in the processing of sentences about the Wizarding World of Harry Potter, finding graded N400 effects positively correlated with a participant’s score on a Harry Potter familiarity questionnaire. Given these findings, we expected to find differences in effects when trials were filtered to exclude those that received incorrect world-knowledge prompt responses (i.e., trial-initial picture recognition, post-experimental speaker-year and -fact congruence responses). Indeed, we observed differences between the unfiltered and filtered data, suggesting that the presence of long-term knowledge when prompted prior to sentence presentation by a picture did play a role in processing. Where effects were present in both filtered and unfiltered trials at the <em>year</em> and <em>fact</em> regions, effects were larger in the filtered data. As the filtered data consisted of fewer observations than the unfiltered data, the emergence of stronger effects in the former indicates a more robust effect compared to the larger unfiltered dataset which had smaller effects. This could indicate that the filtered data points were driving the effect in the unfiltered data, in which they were also included. Only in the <em>name</em> region were effects present in the unfiltered data but not the filtered data, but only for <em>fact congruence</em>. This could be attribributed to the new information provided by the name when the speaker was not recognised by their picture. In the presence of more variable knowledge of a given cultural figure, it seems knowledge of their accomplishments is more reliable than knowledge of when they were born or died.</p>
+<p>The findings from Experiments 1 and 2 suggest that high-level information about well-known individuals is immediately integrated with long-term knowledge activated by their picture. This was true for both years which did not fall within the bounds of the speaker’s lifetime (e.g., <em>Angela Merkel</em> - <em>1930</em>), and for ‘facts’ that were not true (e.g., <em>Angela Merkel</em> - <em>China</em>). These effects were stronger at their relative critical regions (<em>year</em> and <em>fact</em>) when data were filtered to exclude trials containing false world-knowledge responses, indicating an effect of trial-specific long-term knowledge, mirroring individual-level graded effects in <span class="citation" data-cites="Troyer2018">(<a href="#ref-Troyer2018" role="doc-biblioref"><strong>Troyer2018?</strong></a>)</span>. Conversely, effects of <em>fact congruence</em> at the <em>name</em> region were more robust for unfiltered data at the <em>name</em> region, indicating that the additional speaker information provided by the name may have been more beneficial in trials in which participants had partial long-term knowledge of the speaker, or did not recognise their picture. The absence of <em>year congruence</em> effects at the <em>name</em> region, but presence of <em>fact congruence</em> effects in the unfiltered data at the same region, suggest that referential (<em>fact</em>-<em>name</em>) processes may outweigh temporal relations (<em>year</em>-<em>name</em>) relations when long-term knowledge is more variable. These findings suggest these types of relations are rapidly available during langauge processing, but that their are differences in their processing in the presence of variable prior knowledge.</p>
+</section>
+<section id="moving-forward-eeg" class="level2">
+<h2 class="anchored" data-anchor-id="moving-forward-eeg">Moving forward: EEG</h2>
+<p>Experiment 3 will be an EEG experiment in which participants are presented with the same stimuli from Experiments 1 and 2. Instead of reading each critical sentence in its entirety, linguistic stimuli will be presented in rapid serial visual presentation (RSVP). Experiment 3 will not contain the factor fact congruence, thereby reducing the design to a single 2-level factor (life-year congruence: congruent, incongruent).</p>
+<p>Before running the EEG pilot, the critical stimuli will be reduced to remove the counterbalamcing for fact-congruence. Because of this, we only require 80 cultural figures instead of the 160 that were included to account for life-year and fact congruence counterbalancing within items. Filler items will also be minimally altered to contain systematic world knowledge and morphosyntactic violations in order to elicit N400 and P600 effects from the participants, which can be compared to the relevant effect elicited at the critical region. See <strong>?@sec-stimuli-changes</strong> for more detail abou the stimuli changes. A pilot study will be run with a training/testing session as in Experiment 2 (see <strong>?@sec-eeg-pilot</strong>).</p>
+
+
+<!-- -->
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Daniela Palleschi"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "`r Sys.Date()`"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">bibliography:</span><span class="co"> references.bib</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">abstract:</span><span class="co"> &gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">    Various types of world knowledge have been shown to be rapidly available during language processing, from well-known historical events to the colour of our local trains. Prior knowledge about well-known fictional or real-world referents, such as specific semantic knowledge of known cartoon or real-world referents, has also been shown to available during comprehension with gradient inter-individual effects correlated with fictional-world expertise. In an eye-tracking-during-reading experiment, we examined how rapidly two types of photo-sentence relations impact sentence comprehension. A first relation was between a photo of a cultural figure and a year in the ensuing sentence (the cultural figure in the photo was either alive in that year or not). This was contrasted with relations between the same photo and achievements or facts about the cultural figure (e.g., a film they had vs. had not starred in). Longer reading times were observed at the regions containing mismatching *year* or *fact* information (e.g., Emma Watson starred in the ***Wizard of Oz*** in ***1939***), with more robust effects when data were filtered to include only trials in which participants had accurate prior knowledge about the cultural figure, their accomplishments, and their lifetime. Effects of *fact congruence* were also found near sentence-end at the presentation of the cultural figure's name, but only when trials with missing relevant long-term knowledge were included in analyses, suggesting that this effect was driven by trials in which participants did not recognise the cultural figure. These findings indicate that long-term knowledge activated by a picture is rapidly available during the processing of information such as whether they appeared in a certain film and whether they were alive in a given year, and that the former, but not the latter, are available when prior knowledge about the cultural figure was more variable.</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>*The following text (as well as the abstract) is taken from @palleschi_activation_2022 Intro and Discussion sections, and some from DP's dissertation*</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu"># Introduction</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## Previous literature</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>Investigations into the role of high-level world knowledge in language processing have established that violations of long-term knowledge elicit processing costs. In their seminal study, @Hagoort2004 presented neurophsyiological evidence of the influence of specific knowledge of the world on language processing, in which violations of world knowledge elicited an N400 effect which was similar in latency and distribution to semantic violations, but with a reduced amplitude (e.g., *Dutch trains are* ***yellow/white/sour***; Dutch trains are in fact yellow). Since this study, similar findings have been found for other types of lexico-semantic world knowledge violations of well-known historical events <span class="co">[</span><span class="ot">@Nieuwland2012; @Rapp2008</span><span class="co">]</span>, traits of familiar cartoon characters <span class="co">[</span><span class="ot">@Filik2008; @Filik2013</span><span class="co">]</span>, even knowledge specific to the Wizarding World of Harry Potter <span class="co">[</span><span class="ot">@Troyer2018</span><span class="co">]</span>. </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>@Troyer2018 compared semantic violations of a fictional world (the Wizarding World of Harry Potter) with those of the real-world, reporting similar N400 effects in both types of prior knowledge. Furthermore, N400 effects were graded by participant's Harry Potter expertise, with Harry Potter violations eliciting larger N400 effects in participants highly familiar with the Wizarding World of Harry Potter. Participants who scored very low in their Harry Potter familiarity showed no N400 effects in the Harry Potter violations, with no differences between participants in real-world semantic violations as a function of their Harry Potter familiarity. This effect was replicated and extended to event-related words in @Troyer2020 <span class="co">[</span><span class="ot">see also @Troyer2020a; @Troyer2022</span><span class="co">]</span>. Similar to @Metusalem2012, @Troyer2020 manipulated whether incongruent words were event-related (*broomstick*) or event-unrelated (*dog*) to the congruent word (*remembrall*; @exm-troyer]{ex. \ref{troyer}}). Again, individual differences in N400 effects emerged as a function of Harry Potter familiarity for the Harry Potter-related sentences and not for real-world sentences. This indicates that domain-specific familiarity relevant to the incoming linguistic signal is utilised during comprehension. In other words, the presence of relevant prior knowledge influences the processing of linguistic input, and that unexpected words that are related (*broomstick*) to the event elicit smaller processing costs than unexpected words that are unrelated to the event (*dog*). </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>::: {#exm-troyer .custom}</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>Professor McGonagall recruits Harry for the Gryffindor Quidditch team. She saw him save Neville's *remembrall*~correct~/*broomstick*~event-related~/*dog*~event-unrelated~.</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>It seems then that prior knowledge of both the real-world and fictional worlds, as well as historical and fictional events, is rapidly available during processing of lexico-semantic input, and that linguistic contexts can interact with this prior knowledge. However, how we define *knowledge* of real-world events is not trivial, as there is likely both inter- and intra-individual variation when it comes to common knowledge. Though most individuals would say they *know* the Earth is round and that Elvis Presley is dead, there are some who would say they *know*, or perhaps *believe*, the Earth is flat and that Elvis Presley is alive. To explore trial-level effects of prior-Harry Potter knowledge, @Troyer2020a presented 'correct' sentences (i.e., there were no violation conditions) and collected post-trial participant responses indicating familiarity with the information presented (yes or no). When trials were grouped by response, '*no*' trials (i.e., trials that presented information the participant did not already know) elicited increased N400 amplitudes compared to '*yes*' trials (i.e., trials that presented information the participant already knew). Futhermore, N400 effects in '*no*' trials were marginally stronger in participants with a low Harry Potter-familiarity score than those with a high score. The authors took this as evidence that "greater knowledge eases otherwise difficult retrieval processes" <span class="co">[</span><span class="ot">@Troyer2020, p. 476</span><span class="co">]</span>.</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>Likewise, @Martin2014 presented participants with sentences describing real-world facts (e.g., @exm-martin2014), with world knowledge violations (*lawyers*) or semantic violations *horses*. Similar to @Troyer2020a, truth ratings of the items were collected in a surprise post-experimental task where participants indicated whether they believed each sentence was (a) true, (b) false, (c) that they didn't know, or (d) that they couldn't tell because the sentence was nonsensical, with an overall accuracy of 85.6\%. The authors used this information to compare P2 and N400 time-windows between trials containing semantic violations, trials that received a '*don't know*' response, and trials that presented correct sentences and received a 'true' response. </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>::: {#exm-martin2014 .custom}</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>The Beatles were *[popstars]{.underline}/[lawyers]{.underline}/[horses]{.underline}* in the 60's.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>In the P2 window, '*don't know*' trials patterned with semantic violations, eliciting an increased positivity compared to '*true*' condition. In the N400 time-window, '*don't know*' trials did not differ from the '*true*' condition nor the semantic violation condition. Therefore, the P2 was sensitive to semantic violations and the inability to check plausibility when participants did not know, but the N400 was sensitive to semantic and world-knowledge violations, but not the inability to check plausibility. Importantly, these results show processing differences between trials where participants '*don't know*' if a sentence is true or even plausible and trials where sentences are known to be true, as indicated by differences in the P2 time-window.</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>However, our individual knowledge does not only vary in terms of factual knowledge of the world that is commonly shared in a community or culture. We each have our own individual ethical beliefs (@exm-vanBerkum2009) and personal semantics (knowledge about one's own personal preferences, @exm-Coronel2016). Each of these can modulate expectations during comprehension in a similar manner to long-term world knowledge, eliciting N400 effects. In @vanBerkum2009 participants were presented statements that were either congruent or incongruent with their personal moral beliefs about divisive topics (@exm-vanBerkum2009). Likewise, @Coronel2016 presented participants with sentences that either matched or mismatched statements describing their own personal preferences (@exm-Coronel2016). In both experiments, increased N400 amplitudes were elicited by critical words that violated the participant's personal beliefs <span class="co">[</span><span class="ot">@vanBerkum2009</span><span class="co">]</span> or personal semantics <span class="co">[</span><span class="ot">@Coronel2016</span><span class="co">]</span>.</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>::: {#exm-vanBerkum2009 .custom}</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>I think the increasing emancipation of women is a negative/positive development.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>::: {#exm-Coronel2016 .custom}</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>A genre of film you like watching is horror/fantasy.</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>Prior (world) knowledge seems then to guide expectations and to be rapidly available during comprehension, with inter- and intra-individual knowledge playing a role in a case-by-case basis. A variety of sources of information, from narrative contexts <span class="co">[</span><span class="ot">e.g., @Nieuwland2006</span><span class="co">]</span> to long-term knowledge of fictional worlds <span class="co">[</span><span class="ot">@Troyer2018; @Troyer2020; @Troyer2020a; @Filik2013</span><span class="co">]</span> or the real-world <span class="co">[</span><span class="ot">@Hagoort2004; @Hald2007; @Metzner2015; @Martin2014</span><span class="co">]</span>, have been shown to be rapidly available during comprehension. Violations of this knowledge elicits early effects in EEG (N400 component) and eye-tracking during reading (first-fixation, first-pass reading time). Unsurprisingly, processing costs are positively correlated with our domain-specific knowledge <span class="co">[</span><span class="ot">@Troyer2018</span><span class="co">]</span> and the presence of sentence-specific knowledge <span class="co">[</span><span class="ot">@Troyer2020a; @Martin2014</span><span class="co">]</span>. Contradictions of our own personal morals and preferences elicit similar effects <span class="co">[</span><span class="ot">@Coronel2016; @vanBerkum2009</span><span class="co">]</span>, suggesting that it is not only our shared knowledge of the world that influences language processing, but what the comprehender holds to be true. However, all these studies manipulated whether a lexical item was supported or not. The next section gives an overview of investigations into how general world knowledge and morphosyntactic information can guide anticipation during comprehension.</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  These studies have demonstrated that high-level world knowledge can influence the processing of lexico-semantic input when world knowledge is activated through linguistic contexts.  Meanwhile, faces of familiar individuals can activate long-term semantic knowledge about the individual, whether they be real-world cultural figures <span class="co">[</span><span class="ot">@AbdelRahman2002; @Suess2013</span><span class="co">]</span> or well-known cartoon characters <span class="co">[</span><span class="ot">@AbdelRahman2004</span><span class="co">]</span>. Characteristics of unknown speakers have also been shown to be taken into consideration during comprehension. For example, in @vanBerkum2008 an N400 effect was elicited when participants heard statements that violated stereotypes of the speaker based on their voice (e.g., an adult male vs. female voice: *If only I looked like* ***Britney Spears*** *in her latest video*). Meanwhile, inferences about speaker nativeness, based on phsyical features of unknown faces and accompanying native or non-native accented speech, can additionally influence on-line processing of linguistic input, as well as well-formedness judgements <span class="co">[</span><span class="ot">@Xu2019</span><span class="co">]</span>. The rapid effects elicited by physical referent or speaker attributes indicate that what we believe to be true about an individual is rapidly available during language comprehension, whether these beliefs are based on long-term information of a known individual, or stereotypes based on demographic assumptions, like gender. Though a variety of types and sources of long-term knowledge have been investigated, such investigations have thus far focused on lexico-semantic violations activated by linguistic contexts establishing expectations based on real-world knowledge. Less is known about how long-term knowledge influences the processing of morphosyntactic relations, and how this long-term knowledge may be activated by non-linguistic contexts, such as pictures of cultural figures.</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="fu">## Our findings so far</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>  In two eye-tracking during reading experiments we examined whether high-level information about well-known cultural figures, such as politicians and actors, is activated via a picture and available during subsequent language processing. Namely, we explored to what extent knowledge of a cultural figure's lifetime influences the processing of a given year, and whether high-level knowledge of their professional accomplishments is activated by a picture and available during sentence processing. We explored to what extent these two types of information, temporal ('year') and referential ('fact'), are activated by a photograph of a given person and subsequently available during processing. Sentences presented information that either matched or mismatched the lifetime of the cultural figure via a year, and matched or mismatched their professional accomplishments, such as appearing in a certain film. One might assume that a speaker’s face could be a strong cue to factual information associated with that speaker (e.g., what films an actress has starred in and whether she has won awards or not). Further, given the subtlety of tense effects observed in eye-tracking experiments <span class="co">[</span><span class="ot">e.g., @Knoeferle2005, Exp 1; @Altmann2007; @Altmann2009</span><span class="co">]</span>, it may be that associations between seeing a speaker and facts about that speaker would be more influential in comprehension than associations that implicate time and perhaps lifetime status, following previous findings of processing preferences in clipart scenes <span class="co">[</span><span class="ot">@Knoeferle2007</span><span class="co">]</span>. Alternatively, factual knowledge (e.g., the books an author wrote, the films an actor starred in) is more probabilistic in its association with language than the arguably more binary life status information associated with a speaker’s face. When seeing Emma Watson, one may start to think of multiple associations, among them Harry Potter, and wands, but also of “The Beauty and the Beast”, and “The Perks of Being a Wallflower”. Given the many facts an individual may know about a certain cultural figure, each specific fact may be less readily accessible and thus less influential during processing. For life status, by contrast, the associated information is likely binary (alive or not in a given year). If the uniqueness of a cue matters, then accessing information based on a face cue should be easier for binary cues than facts that are part of a larger category of information (e.g., all the films someone has starred in). Evidence of rapid effects of prior long-term knowledge from previous studies <span class="co">[</span><span class="ot">e.g., @Hagoort2004</span><span class="co">]</span> suggest that, in the presence of long-term knowledge about the cultural figures, violations of such prior knowledge should elicit processing costs. The present study therefore extends the previous findings of rapid effects for violations of high-level world knowledge <span class="co">[</span><span class="ot">e.g., @Hagoort2004</span><span class="co">]</span> to violations of prior knowledge about a given well-known figure (activated by their picture) and temporal lifetime and factual accomplishment information.</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>  We presented participants with pictures of well-known cultural figures, followed by sentences in which the cultural figure describes an accomplishment ("fact") of theirs, as well as the year it happened. We manipulated whether the fact and year were true for the cultural figure or not. We expected to find early effects of *year* and *fact* congruence at the respective regions reflecting the influence of long-term knowledge prompted by the trial-initial picture, and later/cumulative effects at these regions reflecting the influence of the later *name* region. Differences in the emergence and size of *year congruence* and *fact congruence* effects were also of interest, with implications for processing preferences for temporal (*year*) versus referential (*fact*) processes. Lastly, effects were expected to be present in the data filtered for accurate long-term knowledge, and to be absent or smaller in the unfiltered data, reflecting the effect of long-term knowledge present in the filtered data.</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>As expected, main effects of both **year** and **fact congruence** emerged in **first-pass reading time** and **total reading times** at their relative regions in filtered analyses. This suggests each type of information was rapidly available after presentation of a picture of a well-known speaker (first-pass reading time), and that violations of this information were not quickly resolved (total reading time). However, effects of **fact congruence** at the *name* region were present in unfiltered data (but not filtered data), with no effects of **year congruence**. This suggests asymmetries in the processing of the two types of information when prior world knowledge is more variable. The observed effect differences could be attributed to a preference for attending to referential relations (*fact* region), compared to temporal relations (*year* region) when encountering contrasting information, such as long-term information activated by the *name* region in unfiltered trials. While a given year requires some temporal relations be computed for a cultural figure's lifetime, preferential attention may have been given to *fact*-*name* relations at name presentation when the picture was not recognised, leading to the *fact congruence* effects at the *name* region (e.g., *2018*...*the song* ***I Shot the Sheriff***...*John Lennon*).</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>This leads to the last research question, in which we were interested in investigating the role of long-term knowledge in the processing of temporal and factual relations to a given cultural figure. @Troyer2018 reported individual-level differences in the processing of sentences about the Wizarding World of Harry Potter, finding graded N400 effects positively correlated with a participant's score on a Harry Potter familiarity questionnaire. Given these findings, we expected to find differences in effects when trials were filtered to exclude those that received incorrect world-knowledge prompt responses (i.e., trial-initial picture recognition, post-experimental speaker-year and -fact congruence responses). Indeed, we observed differences between the unfiltered and filtered data, suggesting that the presence of long-term knowledge when prompted prior to sentence presentation by a picture did play a role in processing. Where effects were present in both filtered and unfiltered trials at the *year* and *fact* regions, effects were larger in the filtered data. As the filtered data consisted of fewer observations than the unfiltered data, the emergence of stronger effects in the former indicates a more robust effect compared to the larger unfiltered dataset which had smaller effects. This could indicate that the filtered data points were driving the effect in the unfiltered data, in which they were also included. Only in the *name* region were effects present in the unfiltered data but not the filtered data, but only for *fact congruence*. This could be attribributed to the new information provided by the name when the speaker was not recognised by their picture. In the presence of more variable knowledge of a given cultural figure, it seems knowledge of their accomplishments is more reliable than knowledge of when they were born or died.</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>The findings from Experiments 1 and 2 suggest that high-level information about well-known individuals is immediately integrated with long-term knowledge activated by their picture. This was true for both years which did not fall within the bounds of the speaker's lifetime (e.g., *Angela Merkel* - *1930*), and for 'facts' that were not true (e.g., *Angela Merkel* - *China*). These effects were stronger at their relative critical regions (*year* and *fact*) when data were filtered to exclude trials containing false world-knowledge responses, indicating an effect of trial-specific long-term knowledge, mirroring individual-level graded effects in @Troyer2018. Conversely, effects of *fact congruence* at the *name* region were more robust for unfiltered data at the *name* region, indicating that the additional speaker information provided by the name may have been more beneficial in trials in which participants had partial long-term knowledge of the speaker, or did not recognise their picture. The absence of *year congruence* effects at the *name* region, but presence of *fact congruence* effects in the unfiltered data at the same region, suggest that referential (*fact*-*name*) processes may outweigh temporal relations (*year*-*name*) relations when long-term knowledge is more variable. These findings suggest these types of relations are rapidly available during langauge processing, but that their are differences in their processing in the presence of variable prior knowledge.</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="fu">## Moving forward: EEG</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>Experiment 3 will be an EEG experiment in which participants are presented with the same stimuli from Experiments 1 and 2. Instead of reading each critical sentence in its entirety, linguistic stimuli will be presented in rapid serial visual presentation (RSVP). Experiment 3 will not contain the factor fact congruence, thereby reducing the design to a single 2-level factor (life-year congruence: congruent, incongruent). </span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>Before running the EEG pilot, the critical stimuli will be reduced to remove the counterbalamcing for fact-congruence. Because of this, we only require 80 cultural figures instead of the 160 that were included to account for life-year and fact congruence counterbalancing within items. Filler items will also be minimally altered to contain systematic world knowledge and morphosyntactic violations in order to elicit N400 and P600 effects from the participants, which can be compared to the relevant effect elicited at the critical region. See @sec-stimuli-changes for more detail abou the stimuli changes. A pilot study will be run with a training/testing session as in Experiment 2 (see @sec-eeg-pilot).</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+</body></html>
