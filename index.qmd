@@ -1,5 +1,5 @@
 ---
-title: "Daniela Palleschi, M.A, M.Sc."
+title: "Daniela Palleschi"
 editor_options: 
   chunk_output_type: console
 ---
