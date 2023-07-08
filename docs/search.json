@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Daniela Palleschi, M.A, M.Sc.",
-    "section": "",
-    "text": "I am currently a scientific staff member and statistics consultant at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. My research interests include the processing of temporal relations and high-level real-world knowledge, and language processing more broadly."
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Daniela Palleschi, M.A, M.Sc.",
-    "section": "News",
-    "text": "News\nIn June 2023 I submitted my doctoral thesis!\nIn February 2023 I started a new position as a statistics consultant for the Institut für deutsche Sprache und Linguistik at the Humboldt-Universität zu Berlin."
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -63,6 +49,27 @@
     "text": "Moving forward: EEG\nExperiment 3 will be an EEG experiment in which participants are presented with the same stimuli from Experiments 1 and 2. Instead of reading each critical sentence in its entirety, linguistic stimuli will be presented in rapid serial visual presentation (RSVP). Experiment 3 will not contain the factor fact congruence, thereby reducing the design to a single 2-level factor (life-year congruence: congruent, incongruent).\nBefore running the EEG pilot, the critical stimuli will be reduced to remove the counterbalamcing for fact-congruence. Because of this, we only require 80 cultural figures instead of the 160 that were included to account for life-year and fact congruence counterbalancing within items. Filler items will also be minimally altered to contain systematic world knowledge and morphosyntactic violations in order to elicit N400 and P600 effects from the participants, which can be compared to the relevant effect elicited at the critical region. See ?@sec-stimuli-changes for more detail abou the stimuli changes. A pilot study will be run with a training/testing session as in Experiment 2 (see ?@sec-eeg-pilot)."
   },
   {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "I have materials for workshops on the following topics:\n\nRegression for Linguists (frequentist)\nReproducible research practices\nProgramming and running Internet Experiments with PCIbex"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daniela Palleschi",
+    "section": "",
+    "text": "I am currently a scientific staff member and statistics consultant at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. My research interests include the processing of temporal relations and high-level real-world knowledge, and language processing more broadly."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Daniela Palleschi",
+    "section": "News",
+    "text": "News\nIn June 2023 I submitted my doctoral thesis!\nIn February 2023 I started a new position as a statistics consultant for the Institut für deutsche Sprache und Linguistik at the Humboldt-Universität zu Berlin."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -102,14 +109,7 @@
     "href": "summary.html",
     "title": "",
     "section": "",
-    "text": "Code\n\n\n\n\nSummary\nIn summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Download CV"
+    "text": "Code\n\n\n\n\nSummary\nIn summary, this book has no content whatsoever.\n\n\n[1] 2"
   },
   {
     "objectID": "resources.html",
