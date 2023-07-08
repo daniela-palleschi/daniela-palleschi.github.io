@@ -1,8 +1,4 @@
----
-title: "About"
----
-
-## About me
+# About me
 
 I am currently a scientific staff member and doctoral candidate at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. I am completing my doctoral work in the Psycholinguistics group under the supervision of Prof. Pia Knoeferle.
 

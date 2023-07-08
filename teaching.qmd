@@ -14,7 +14,6 @@ pacman::p_load(tidyverse, knitr, kableExtra)
 
 tribble(
   ~"Year", ~"Semester", ~"Course title", ~"Level",
-  "2022", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)",
   "2020", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)",
   "2019", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)",
   "2018/19", "WiSe", "Introduction to Statistics for Linguistics with R and RStudio", "M.A.",

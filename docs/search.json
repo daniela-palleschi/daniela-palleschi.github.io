@@ -18,7 +18,7 @@
     "href": "teaching.html#past-courses",
     "title": "Teaching",
     "section": "Past courses",
-    "text": "Past courses\n\n\n\n\n\nYear\nSemester\nCourse title\nLevel\n\n\n\n\n2022\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2020\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2019\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2018/19\nWiSe\nIntroduction to Statistics for Linguistics with R and RStudio\nM.A.\n\n\n2018\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)"
+    "text": "Past courses\n\n\n\n\n\nYear\nSemester\nCourse title\nLevel\n\n\n\n\n2020\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2019\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2018/19\nWiSe\nIntroduction to Statistics for Linguistics with R and RStudio\nM.A.\n\n\n2018\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)"
   },
   {
     "objectID": "intro.html",
@@ -72,9 +72,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "",
     "section": "",
-    "text": "I am currently a scientific staff member and doctoral candidate at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. I am completing my doctoral work in the Psycholinguistics group under the supervision of Prof. Pia Knoeferle.\nAfter completing an Honours Specialist B.A. in Linguistics at the University of Toronto, I earned my TESOL certification and moved to Berlin to teach English at various companies and institutions, including the Humboldt-Universität zu Berlin. After some years I returned to academia by completing a joint Master’s of Science as part of the European Master’s in Clincal Linguistics (EMCL 2015-17 cohort) at the Univerisity of Eastern Finland, Univerisity of Potsdam (Germany), and Univerisity of Groningen (the Netherlands). I also hold a M.A. in Linguistics from the University of Eastern Finland, which was completed in tandem with my M.Sc."
+    "text": "Code"
   },
   {
     "objectID": "about.html#about-me",
@@ -86,21 +86,21 @@
   {
     "objectID": "about.html#research-interests",
     "href": "about.html#research-interests",
-    "title": "About",
+    "title": "",
     "section": "Research interests",
     "text": "Research interests\nMy current projects investigate the influence of high-level knowledge of the real world on the processing of language. I am specifically interested in how this knowledge interacts with temporal information, such as verb tense. I use eye-tracking during reading, self-paced reading, and electroencephalography (EEG) in order to investigate this interaction. My interests are broader than my current research, and I welcome potential collaborators to reach out."
   },
   {
     "objectID": "about.html#outreach",
     "href": "about.html#outreach",
-    "title": "About",
+    "title": "",
     "section": "Outreach",
     "text": "Outreach\nI am a co-founder and co-organiser of the Friday Primes, a monthly Berlin/Potsdam meet-up for PhDs and postdocs working on language processing."
   },
   {
     "objectID": "about.html#keywords",
     "href": "about.html#keywords",
-    "title": "About",
+    "title": "",
     "section": "Keywords",
     "text": "Keywords\npsycholinguistics, language comprehension, eye-tracking during reading, self-paced reading, tense processing"
   },
@@ -114,14 +114,14 @@
   {
     "objectID": "resources.html",
     "href": "resources.html",
-    "title": "Resources",
+    "title": "",
     "section": "",
-    "text": "My own notes for building and maintaining reproducibile workflow in RProjects can be found here, or by clicking ‘Workflow’ in the navigation bar.\nAs researchers, it is important we plan and take into account how we analyse our data before we being data collection. I recommend the following resources for students looking to get started with linear mixed models (LMMs) in R, or for researchers looking to brush up on or expand their knowledge. If you’ve never analysed data using LMMs in R before, I’d recommend starting with the textbooks and tutorials listed. Otherwise, working through the list of “required reading” will ensure you’re aware of the advantages but also pitfalls of LMMs. I plan to add resources for Bayesian analyses soon. Full disclosure: I’m still working through some of these materials myself."
+    "text": "Code"
   },
   {
     "objectID": "resources.html#data-skills-with-r-and-rmarkdown",
     "href": "resources.html#data-skills-with-r-and-rmarkdown",
-    "title": "Resources",
+    "title": "",
     "section": "Data Skills with R and RMarkdown",
     "text": "Data Skills with R and RMarkdown\n\n@wickham_r_nodate: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge\nDeBruine, L. (2022)\nTierney (2019), Tips for Sharing Code and Data. [E-book]\n@"
   },

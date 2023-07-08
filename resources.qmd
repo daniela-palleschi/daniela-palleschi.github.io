@@ -1,6 +1,4 @@
----
-title: "Resources"
----
+# Reading
 
 My own notes for building and maintaining reproducibile workflow in RProjects can be found [here](https://daniela-palleschi.github.io/workflow/), or by clicking 'Workflow' in the navigation bar.
 
