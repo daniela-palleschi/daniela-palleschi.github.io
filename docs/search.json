@@ -7,8 +7,8 @@
     "text": "Reproducible analyses for eye-tracking reading data (M.A. Course)\nAngewandte Datenanalyse und -visualisierung (B.A. Course)"
   },
   {
-    "objectID": "teaching.html#current-courses",
-    "href": "teaching.html#current-courses",
+    "objectID": "teaching.html#current-courses-summer-semester-2023",
+    "href": "teaching.html#current-courses-summer-semester-2023",
     "title": "Teaching",
     "section": "",
     "text": "Reproducible analyses for eye-tracking reading data (M.A. Course)\nAngewandte Datenanalyse und -visualisierung (B.A. Course)"
@@ -19,6 +19,13 @@
     "title": "Teaching",
     "section": "Past courses",
     "text": "Past courses\n\n\n\n\n\nYear\nSemester\nCourse title\nLevel\n\n\n\n\n2020\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2019\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2018/19\nWiSe\nIntroduction to Statistics for Linguistics with R and RStudio\nM.A.\n\n\n2018\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)"
+  },
+  {
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Teaching",
+    "section": "Workshops",
+    "text": "Workshops\n\n\n\n\n\nYear\nWorkshop title\nInstitution\nMaterials\n\n\n\n\n2020\nIntroduction to Ibex and PennController: Internet Based Experiments\nInstitut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin\nMaterials"
   },
   {
     "objectID": "intro.html",
@@ -264,19 +271,5 @@
     "title": "",
     "section": "Data Skills with R and RMarkdown",
     "text": "Data Skills with R and RMarkdown\n\n@wickham_r_nodate: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge\nDeBruine, L. (2022)\nTierney (2019), Tips for Sharing Code and Data. [E-book]\n@"
-  },
-  {
-    "objectID": "teaching.html#current-courses-summer-semester-2023",
-    "href": "teaching.html#current-courses-summer-semester-2023",
-    "title": "Teaching",
-    "section": "",
-    "text": "Reproducible analyses for eye-tracking reading data (M.A. Course)\nAngewandte Datenanalyse und -visualisierung (B.A. Course)"
-  },
-  {
-    "objectID": "teaching.html#workshops",
-    "href": "teaching.html#workshops",
-    "title": "Teaching",
-    "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\nYear\nWorkshop title\nInstitution\nMaterials\n\n\n\n\n2020\nIntroduction to Ibex and PennController: Internet Based Experiments\nInstitut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin\nMaterials"
   }
 ]
