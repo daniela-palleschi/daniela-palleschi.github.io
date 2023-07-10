@@ -1,8 +1,10 @@
 ---
 title: "Teaching"
+editor_options: 
+  chunk_output_type: console
 ---
 
-## Current courses
+## Current courses (Summer Semester 2023)
 
 - [Reproducible analyses for eye-tracking reading data](https://daniela-palleschi.github.io/repo-eda/) (M.A. Course)
 - *Angewandte Datenanalyse und -visualisierung* (B.A. Course)
@@ -10,8 +12,13 @@ title: "Teaching"
 ## Past courses
 
 ```{r}
+# load packages
 pacman::p_load(tidyverse, knitr, kableExtra)
+```
 
+
+```{r}
+# past IdSL courses
 tribble(
   ~"Year", ~"Semester", ~"Course title", ~"Level",
   "2020", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)",
@@ -22,4 +29,18 @@ tribble(
   kbl() %>% 
   kable_styling()
 ```
+
+## Workshops
+
+```{r}
+# workshop courses
+tribble(
+  ~"Year", ~"Workshop title", ~"Institution", ~"Materials",
+  "2020", "Introduction to Ibex and PennController:
+Internet Based Experiments", "Institut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin", "<a href='https://box.hu-berlin.de/d/ff964c88ad9c47e781b5/'>Materials</a>"
+) %>% 
+  kbl(escape=FALSE,format = "html")%>%
+  kable_styling()
+```
+
 
