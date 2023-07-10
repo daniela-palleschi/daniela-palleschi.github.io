@@ -1,6 +1,7 @@
 ---
 title: "Daniela Palleschi"
 about:
+  id: about-heading
   template: trestles
   image: images/profile.png
   links:
@@ -13,8 +14,10 @@ about:
 format:
   html:
     code-tools: false
-    sidebar: false
+    toc: true
 ---
+
+:::{#about-heading}
 
 I am currently a scientific staff member and statistics consultant at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. My research interests include the processing of temporal relations and high-level real-world knowledge, and language processing more broadly.
 
@@ -25,7 +28,7 @@ pacman::p_load(tidyverse, knitr, kableExtra)
 
 tribble(
   ~"", ~"",
-  "Email", "daniela.palleschi at hu-berlin dot de (please do not write in Italian!)",
+  "Email", "daniela.palleschi at hu-berlin dot de (N.B., I don't speak Italian!)",
   "Sitz", "Institut für deutsche Sprache und Linguistik, Humboldt-Universität zu Berlin, Room 3.321 (Haus 3), Dorotheenstr. 24, 10117 Berlin, Germany"
 ) %>% 
   kable() %>% 
@@ -39,3 +42,4 @@ In **June 2023** I submitted my [doctoral thesis](https://twitter.com/dpalleswho
 
 In **February 2023** I started a new position as a statistics consultant for the Institut für deutsche Sprache und Linguistik at the Humboldt-Universität zu Berlin.
 
+:::
