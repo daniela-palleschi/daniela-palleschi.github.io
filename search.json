@@ -7,8 +7,8 @@
     "text": "Reproducible analyses for eye-tracking reading data (M.A. Course)\nAngewandte Datenanalyse und -visualisierung (B.A. Course)"
   },
   {
-    "objectID": "teaching.html#current-courses",
-    "href": "teaching.html#current-courses",
+    "objectID": "teaching.html#current-courses-summer-semester-2023",
+    "href": "teaching.html#current-courses-summer-semester-2023",
     "title": "Teaching",
     "section": "",
     "text": "Reproducible analyses for eye-tracking reading data (M.A. Course)\nAngewandte Datenanalyse und -visualisierung (B.A. Course)"
@@ -19,6 +19,13 @@
     "title": "Teaching",
     "section": "Past courses",
     "text": "Past courses\n\n\n\n\n\nYear\nSemester\nCourse title\nLevel\n\n\n\n\n2020\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2019\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)\n\n\n2018/19\nWiSe\nIntroduction to Statistics for Linguistics with R and RStudio\nM.A.\n\n\n2018\nSoSe\nLanguage and the Brain (Tutorial)\nM.A. (Berlin School of Mind and Brain)"
+  },
+  {
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Teaching",
+    "section": "Workshops",
+    "text": "Workshops\n\n\n\n\n\nYear\nWorkshop title\nInstitution\nMaterials\n\n\n\n\n2020\nIntroduction to Ibex and PennController: Internet Based Experiments\nInstitut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin\nMaterials"
   },
   {
     "objectID": "intro.html",
@@ -165,7 +172,7 @@
     "href": "cv.html#teaching-experience",
     "title": "Curriculum Vitae",
     "section": "Teaching Experience",
-    "text": "Teaching Experience\nReproducible analysis reports with eye-tracking reading time data 2023 M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin\nAngewandte Datenverarbeitung und Visualisierung 2023 B.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin\nIntroduction to Ibex and PennController: Internet-based experiments (workshop) 2020 Institute for German Language and Linguistics, Humboldt-Universität zu Berlin\nIntroduction to Statistics with R and RStudio2019-2020  M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin\nLanguage and the Brain (tutorial) 2018, 2019, 2020 Berlin School of Mind and Brain (M.A. program), Humboldt-Universität zu Berlin  Accompanied lectures from Prof. Pia Knoeferle and Prof. Friedemann Pulvermüller"
+    "text": "Teaching Experience\nSee Teaching\nReproducible analysis reports with eye-tracking reading time data 2023 M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin\nAngewandte Datenverarbeitung und Visualisierung 2023 B.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin\nIntroduction to Ibex and PennController: Internet-based experiments (workshop) 2020 Institute for German Language and Linguistics, Humboldt-Universität zu Berlin\nIntroduction to Statistics with R and RStudio2019-2020  M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin\nLanguage and the Brain (tutorial) 2018, 2019, 2020 Berlin School of Mind and Brain (M.A. program), Humboldt-Universität zu Berlin  Accompanied lectures from Prof. Pia Knoeferle and Prof. Friedemann Pulvermüller"
   },
   {
     "objectID": "cv.html#non-academic-experience",
