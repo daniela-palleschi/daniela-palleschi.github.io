@@ -1,8 +1,160 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 ---
 
-## Academic Employment
+View PDF [here]()
+
+## Academic appointments
+
+**Statistics consultant and Scientific staff member (wiss. Mitarbeiterin)** [2023 - present]{style="float:right"}<br>
+Humboldt-Universität zu Berlin, Institute for German Langauge and Lingusitics 
+ <br>
+
+**Research Fellow (wiss. Mitarbeiterin)** [2019 - 2023]{style="float:right"}  <br> 
+Humboldt-Universität zu Berlin, Institute for German Langauge and Lingusitics <br>
+DFG Grant KN 897/9-1: ‘Effects of lifetime and fact knowledge in language comprehension’
+
+## Education
+
+**Humboldt-Universität zu Berlin**, Institute for German Langauge and Lingusitics [2018 - present]{style="float:right"}<br> 
+Doctoral candidate in Psycholinguistics
+
+**Berlin School of Mind and Brain**, Humboldt-Universität zu Berlin [2017 - present]{style="float:right"}<br>
+Doctoral student
+
+**Einstein Center for Neurosciences Berlin**, Charité - Universitätsmedizin Berlin [ 2017 - present]{style="float:right"}t<br>
+Doctoral fellow
+
+**University of Eastern Finland (FI), University of Potsdam (DE), University of Groningen (NL)** <br>
+ M.Sc. in Clinical Lingusitics (Erasmus Mundus joint Master Degree) [2017]{style="float:right"}
+
+**University of Finland** <br>
+M.A. in Clinical Lingusitics [2017]{style="float:right"}
+
+**University of Toronto** <br>
+B.A. Honours Specialist in Lingusitics [2012]{style="float:right"}
+
+## Awards and Fellowships
+
+**Einstein Center for Neuroscience Berlin**, Charité - Universitätsmedizin Berlin [2017 - 2019]{style="float:right"}<br>
+Doctoral scholarship
+
+## Teaching Experience
+
+**Reproducible analysis reports with eye-tracking reading time data** [2023]{style="float:right"}<br>
+M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
+
+**Angewandte Datenverarbeitung und Visualisierung** [2023]{style="float:right"}<br>
+B.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
+
+**Introduction to Ibex and PennController: Internet-based experiments** (workshop) [2020]{style="float:right"}<br>
+Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
+
+**Introduction to Statistics with R and RStudio**[2019-2020]{style="float:right"} <br>
+M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
+
+**Language and the Brain** (tutorial) [2018, 2019, 2020]{style="float:right"}<br>
+Berlin School of Mind and Brain (M.A. program), Humboldt-Universität zu Berlin <br> 
+Accompanied lectures from Prof. Pia Knoeferle and Prof. Friedemann Pulvermüller
+
+## Non-academic experience
+
+**Teacher of English as a Second Language** (adults and children) [2012-2017]{style="float:right"}<br>
+Marcus Evans Linguarama, Berlin, Germany
+
+**TESOL Certification** (Teacher of English to Speakers of Other Languages) [2012]{style="float:right"}<br>
+SOL International School of Language, Toronto, Canada
+
+## Publications
+
+See [Publications]()
+
+## Presentations
+
+See [Presentations]()
+
+## Workshops, summer schools, journal clubs (attendance)
+
+### Data Analyses
+
+**Intro to Bayesian Analyses for Speech and Language Scientists**[2022]{style="float:right"}<br>
+University of Konstanz, Germany<br>
+Workshop taught by Dr Stefano Coretta
+
+**Introduction to Bayesian data analysis**[2022]{style="float:right"}<br>
+Summer School in Statistical Methods for Linguistics and Psychology (SMLP), Universität Potsdam, Germany<br>
+Summer school taught by Shravan Vasishth, assisted by Anna Laurinavichyute
+
+**Generalised Additive Modelling in Statistics**[2022]{style="float:right"} 
+Leibniz-Zentrum Allgemeine Sprachwissenschaft (ZAS Berlin), Germany
+Workshop taught by Màrton Sóskuthy
+
+**Advanced methods in frequentist statistics with Julia** [2021]{style="float:right"}<br>
+Summer School in Statistical Methods for Linguistics and Psychology (SMLP), Universität Potsdam, Germany<br>
+Taught by Phillip Alday, Douglas Bates, and Reinhold Kliegl
+
+**Foundational methods in frequentist statistics** [2020]{style="float:right"}<br>
+Summer School in Statistical Methods for Linguistics and Psychology (SMLP), Universität Potsdam, Germany<br>
+Taught by Daniel Schad
+
+### Methods and MetaScience
+
+**Coding Club::Creating an R Package**, led by Prof. Lisa DeBruine [2022]{style="float:right"}<br>
+Creating an R package to share code and data from a research project
+
+**Git Collaborative**, Max Planck Institute for Psycholinguistics [2022]{style="float:right"}<br>
+Workshop
+
+**Git Basics**, Max Planck Institute for Psycholinguistics [2022]{style="float:right"}<br>
+Workshop
+
+**Data wrangling and reproducible reports with tidyverse and R-markdown** [2021]{style="float:right"}<br>
+Workshop
+
+### Open Science
+
+**ReproducibiliTea**, Berlin chapter [2021]{style="float:right"}<br>
+Journal Club
+
+## Organisation
+
+**Friday Primes**, monthly meet-up for Early Career Researchers in psycholinguistics[2020 - present]{style="float:right"}<br>
+Co-organisers: Radim Lacina (University of Potsdam) and Onur Özsoy
+
+**Embodied and Situated Language Processing and AttLis**, joint conference [2019]{style="float:right"}<br>
+Humboldt-Universität zu Berlin, Germany<br>
+Co-organisers: Aine Ito, Camilo R. Ronderos, Huong Nguyen, Katja Mquate
+
+**Architecture and Mechanisms for Language Processing** [2018]{style="float:right"}<br> 
+On-site organisation
+
+## Memberships
+
+**Cognitive Science Society** [2020 - present]{style="float:right"}<br>
+**Berlin School of Mind and Brain**, Humboldt-Universität zu Berlin [2018 - present]{style="float:right"}<br>
+**Einstein Center for Neurosciences Berlin**, Charité - Universitätsmedizin Berlin [2017 - present]{style="float:right"}<br>
+
+## Technical skills
+
+Eye-tracking (EyeLink 1000, Experiment Builder, EyeLink DataViewer)<br>
+Internet-based experiments (PCIbex, Prolific, ClickWorker)<br>
+EEG data collection (BrainProducts)<br>
+Audio processing (Praat, Audacity)<br>
+R and RStudio (data wrangling, analysis, visualisation)<br>
+Technical writing/Dynamic reports (Quarto, RMarkdown, LaTeX)<br>
+Version control (Git, GitHub, GitLab)
+
+## Language competences
+
+English (native)
+
+German (Intermediate)
+
+## References
+
+Available upon request
+\vfill
+
 
 
 
