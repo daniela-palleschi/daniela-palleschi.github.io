@@ -13,6 +13,7 @@ about:
 format:
   html:
     code-tools: false
+    sidebar: false
 ---
 
 I am currently a scientific staff member and statistics consultant at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. My research interests include the processing of temporal relations and high-level real-world knowledge, and language processing more broadly.
