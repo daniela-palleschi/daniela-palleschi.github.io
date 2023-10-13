@@ -6,7 +6,7 @@ editor_options:
 
 ## Upcoming courses (Winter Semester 2023/24)
 
-- Regression for Linguists (M.A.)
+- [Regression for Linguists](https://daniela-palleschi.github.io/reg4ling/) (M.A.)
 - Angewandte Datenanalyse und -visualisierung (B.A.)
 
 ## Past courses
