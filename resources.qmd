@@ -1,3 +1,19 @@
+---
+bibliography: references.bib
+csl: apa.csl
+---
+
+-   add apa csl file
+
+```{r}
+rbbt::bbt_update_bib("resources.qmd")
+```
+
+```{r}
+# https://stackoverflow.com/questions/26851952/is-it-possible-to-insert-the-full-reference-of-an-article-in-the-middle-of-a-rma
+biblio <- bibtex::read.bib("references.bib")
+```
+
 # Reading
 
 My own notes for building and maintaining reproducibile workflow in RProjects can be found [here](https://daniela-palleschi.github.io/workflow/), or by clicking 'Workflow' in the navigation bar.
@@ -6,7 +22,36 @@ As researchers, it is important we plan and take into account how we analyse our
 
 ## Data Skills with R and RMarkdown
 
-- @wickham_r_nodate: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge
-- [DeBruine, L. (2022)](https://debruine.github.io/data-code-tips/)
-- Tierney (2019), *Tips for Sharing Code and Data.* [[E-book](https://njtierney.github.io/rmd4sci/)]
-- @
+-   @wickham_r_2023: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge
+-   [Tips for Sharing Data and Code](https://debruine.github.io/data-code-tips/) blogpost by Lisa DeBruine
+-   \[*Tips for Sharing Code and Data.*\] (https://njtierney.github.io/rmd4sci/) E-book by Nicholas Tierney
+
+## Likert scales
+
+-   [*On Likert Scales in R*](https://jakec007.github.io/2021-06-23-R-likert/) blogpost
+
+-   [*The case against diverging stacked bars*](https://blog.datawrapper.de/divergingbars/) blogpost
+
+-   [*Do not use averages with Likert scale data*](https://bookdown.org/Rmadillo/likert/)
+
+-   @bross_using_2019
+
+- `r capture.output(print(biblio["alday2019"]))`
+
+-   [@abdelrahman2002]
+
+-   [@aguinis2013; @abdelrahman2011; @alday2019]
+
+-   @carifio_resolving_2008
+
+-   @christensen_tutorial_nodate
+
+-   @harpe_how_2015-1
+
+-   @jamieson_likert_2004
+
+-   @pell_use_2005
+
+-   @taylor_rating_2022
+
+-   @verissimo_analysis_2021

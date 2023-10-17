@@ -53,7 +53,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+
+div.csl-bib-body { }
+div.csl-entry {
+clear: both;
+}
+.hanging-indent div.csl-entry {
+margin-left:2em;
+text-indent:-2em;
+}
+div.csl-left-margin {
+min-width:2em;
+float:left;
+}
+div.csl-right-inline {
+margin-left:2em;
+padding-left:1em;
+}
+div.csl-indent {
+margin-left: 2em;
+}</style>
 
 
 <script>const headroomChanged = new CustomEvent("quarto-hrChanged", {
@@ -4528,7 +4547,7 @@ vertical-align: -.125em;
     <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
         <li>
     <a class="dropdown-item" href="./resources.html" rel target>
- <span class="dropdown-text">Reading</span></a>
+ <span class="dropdown-text">rbbt::bbt_update_bib(&quot;resources.qmd&quot;)</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://daniela-palleschi.github.io/workflow/" rel target>
@@ -4559,7 +4578,7 @@ vertical-align: -.125em;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./resources.html">Resources</a></li><li class="breadcrumb-item"><a href="./resources.html">Reading</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./resources.html">Resources</a></li><li class="breadcrumb-item"><a href="./resources.html">rbbt::bbt_update_bib(“resources.qmd”)</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label onclick="window.quartoOpenSearch();">
@@ -4597,7 +4616,7 @@ vertical-align: -.125em;
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./resources.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Reading</span></a>
+ <span class="menu-text">rbbt::bbt_update_bib(“resources.qmd”)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -4621,6 +4640,7 @@ vertical-align: -.125em;
   <li><a href="#reading" id="toc-reading" class="nav-link active" data-scroll-target="#reading">Reading</a>
   <ul class="collapse">
   <li><a href="#data-skills-with-r-and-rmarkdown" id="toc-data-skills-with-r-and-rmarkdown" class="nav-link" data-scroll-target="#data-skills-with-r-and-rmarkdown">Data Skills with R and RMarkdown</a></li>
+  <li><a href="#likert-scales" id="toc-likert-scales" class="nav-link" data-scroll-target="#likert-scales">Likert scales</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -4630,6 +4650,9 @@ vertical-align: -.125em;
 
 
 
+<ul>
+<li>add apa csl file</li>
+</ul>
 <section id="reading" class="level1">
 <h1>Reading</h1>
 <p>My own notes for building and maintaining reproducibile workflow in RProjects can be found <a href="https://daniela-palleschi.github.io/workflow/">here</a>, or by clicking ‘Workflow’ in the navigation bar.</p>
@@ -4637,19 +4660,42 @@ vertical-align: -.125em;
 <section id="data-skills-with-r-and-rmarkdown" class="level2">
 <h2 class="anchored" data-anchor-id="data-skills-with-r-and-rmarkdown">Data Skills with R and RMarkdown</h2>
 <ul>
-<li><span class="citation" data-cites="wickham_r_nodate">@wickham_r_nodate</span>: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge</li>
-<li><a href="https://debruine.github.io/data-code-tips/">DeBruine, L. (2022)</a></li>
-<li>Tierney (2019), <em>Tips for Sharing Code and Data.</em> [<a href="https://njtierney.github.io/rmd4sci/">E-book</a>]</li>
-<li>@</li>
+<li><span class="citation" data-cites="wickham_r_2023">(<a href="#ref-wickham_r_2023" role="doc-biblioref"><strong>wickham_r_2023?</strong></a>)</span>: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge</li>
+<li><a href="https://debruine.github.io/data-code-tips/">Tips for Sharing Data and Code</a> blogpost by Lisa DeBruine</li>
+<li>[<em>Tips for Sharing Code and Data.</em>] (https://njtierney.github.io/rmd4sci/) E-book by Nicholas Tierney</li>
+</ul>
+</section>
+<section id="likert-scales" class="level2">
+<h2 class="anchored" data-anchor-id="likert-scales">Likert scales</h2>
+<ul>
+<li><p><a href="https://jakec007.github.io/2021-06-23-R-likert/"><em>On Likert Scales in R</em></a> blogpost</p></li>
+<li><p><a href="https://blog.datawrapper.de/divergingbars/"><em>The case against diverging stacked bars</em></a> blogpost</p></li>
+<li><p><a href="https://bookdown.org/Rmadillo/likert/"><em>Do not use averages with Likert scale data</em></a></p></li>
+<li><p><span class="citation" data-cites="bross_using_2019">(<a href="#ref-bross_using_2019" role="doc-biblioref"><strong>bross_using_2019?</strong></a>)</span></p></li>
+<li><p>Alday PM (2019). “How much baseline correction do we need in ERP, research? Extended GLM model can replace baseline correction while, lifting its limits.” <em>Psychophysiology</em>, <em>56</em>(12), 1-14., doi:10.1111/psyp.13451 <a href="https://doi.org/10.1111/psyp.13451" class="uri">https://doi.org/10.1111/psyp.13451</a>, PMID:, 31403187 arXiv: 1707.08152.</p></li>
+<li><p><span class="citation" data-cites="abdelrahman2002">(<a href="#ref-abdelrahman2002" role="doc-biblioref"><strong>abdelrahman2002?</strong></a>)</span></p></li>
+<li><p><span class="citation" data-cites="aguinis2013 abdelrahman2011 alday2019">(<a href="#ref-alday2019" role="doc-biblioref">Alday, 2019</a>; <a href="#ref-aguinis2013" role="doc-biblioref"><strong>aguinis2013?</strong></a>; <a href="#ref-abdelrahman2011" role="doc-biblioref"><strong>abdelrahman2011?</strong></a>)</span></p></li>
+<li><p><span class="citation" data-cites="carifio_resolving_2008">(<a href="#ref-carifio_resolving_2008" role="doc-biblioref"><strong>carifio_resolving_2008?</strong></a>)</span></p></li>
+<li><p><span class="citation" data-cites="christensen_tutorial_nodate">(<a href="#ref-christensen_tutorial_nodate" role="doc-biblioref"><strong>christensen_tutorial_nodate?</strong></a>)</span></p></li>
+<li><p><span class="citation" data-cites="harpe_how_2015-1">(<a href="#ref-harpe_how_2015-1" role="doc-biblioref"><strong>harpe_how_2015-1?</strong></a>)</span></p></li>
+<li><p><span class="citation" data-cites="jamieson_likert_2004">(<a href="#ref-jamieson_likert_2004" role="doc-biblioref"><strong>jamieson_likert_2004?</strong></a>)</span></p></li>
+<li><p><span class="citation" data-cites="pell_use_2005">(<a href="#ref-pell_use_2005" role="doc-biblioref"><strong>pell_use_2005?</strong></a>)</span></p></li>
+<li><p><span class="citation" data-cites="taylor_rating_2022">(<a href="#ref-taylor_rating_2022" role="doc-biblioref"><strong>taylor_rating_2022?</strong></a>)</span></p></li>
+<li><p><span class="citation" data-cites="verissimo_analysis_2021">(<a href="#ref-verissimo_analysis_2021" role="doc-biblioref"><strong>verissimo_analysis_2021?</strong></a>)</span></p></li>
 </ul>
 
 
 <!-- -->
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-alday2019" class="csl-entry" role="listitem">
+Alday, P. M. (2019). How much baseline correction do we need in ERP research? Extended GLM model can replace baseline correction while lifting its limits. <em>Psychophysiology</em>, <em>56</em>(12), 1–14. <a href="https://doi.org/10.1111/psyp.13451">https://doi.org/10.1111/psyp.13451</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script>
 var custom_title = document.querySelectorAll('.custom .theorem-title');
 
@@ -5057,18 +5103,64 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class>
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Reading</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>My own notes for building and maintaining reproducibile workflow in RProjects can be found <span class="co">[</span><span class="ot">here</span><span class="co">](https://daniela-palleschi.github.io/workflow/)</span>, or by clicking &#39;Workflow&#39; in the navigation bar.</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>As researchers, it is important we plan and take into account how we analyse our data before we being data collection. I recommend the following resources for students looking to get started with linear mixed models (LMMs) in R, or for researchers looking to brush up on or expand their knowledge. If you&#39;ve never analysed data using LMMs in R before, I&#39;d recommend starting with the textbooks and tutorials listed. Otherwise, working through the list of &quot;required reading&quot; will ensure you&#39;re aware of the advantages but also pitfalls of LMMs. I plan to add resources for Bayesian analyses soon. Full disclosure: I&#39;m still working through some of these materials myself.</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Skills with R and RMarkdown</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>@wickham_r_nodate: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">DeBruine, L. (2022)</span><span class="co">](https://debruine.github.io/data-code-tips/)</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Tierney (2019), *Tips for Sharing Code and Data.* [<span class="co">[</span><span class="ot">E-book</span><span class="co">](https://njtierney.github.io/rmd4sci/)</span>]</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>@</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">bibliography:</span><span class="co"> references.bib</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">csl:</span><span class="co"> apa.csl</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>add apa csl file</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># rbbt::bbt_update_bib(&quot;resources.qmd&quot;)</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># https://stackoverflow.com/questions/26851952/is-it-possible-to-insert-the-full-reference-of-an-article-in-the-middle-of-a-rma</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>biblio <span class="ot">&lt;-</span> bibtex<span class="sc">::</span><span class="fu">read.bib</span>(<span class="st">&quot;references.bib&quot;</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu"># Reading</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>My own notes for building and maintaining reproducibile workflow in RProjects can be found <span class="co">[</span><span class="ot">here</span><span class="co">](https://daniela-palleschi.github.io/workflow/)</span>, or by clicking &#39;Workflow&#39; in the navigation bar.</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>As researchers, it is important we plan and take into account how we analyse our data before we being data collection. I recommend the following resources for students looking to get started with linear mixed models (LMMs) in R, or for researchers looking to brush up on or expand their knowledge. If you&#39;ve never analysed data using LMMs in R before, I&#39;d recommend starting with the textbooks and tutorials listed. Otherwise, working through the list of &quot;required reading&quot; will ensure you&#39;re aware of the advantages but also pitfalls of LMMs. I plan to add resources for Bayesian analyses soon. Full disclosure: I&#39;m still working through some of these materials myself.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Skills with R and RMarkdown</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@wickham_r_2023: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Tips for Sharing Data and Code</span><span class="co">](https://debruine.github.io/data-code-tips/)</span> blogpost by Lisa DeBruine</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="sc">\[</span>*Tips for Sharing Code and Data.*<span class="sc">\]</span> (https://njtierney.github.io/rmd4sci/) E-book by Nicholas Tierney</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## Likert scales</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*On Likert Scales in R*</span><span class="co">](https://jakec007.github.io/2021-06-23-R-likert/)</span> blogpost</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*The case against diverging stacked bars*</span><span class="co">](https://blog.datawrapper.de/divergingbars/)</span> blogpost</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*Do not use averages with Likert scale data*</span><span class="co">](https://bookdown.org/Rmadillo/likert/)</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@bross_using_2019</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`r capture.output(print(biblio[&quot;alday2019&quot;]))`</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">@abdelrahman2002</span><span class="co">]</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">@aguinis2013; @abdelrahman2011; @alday2019</span><span class="co">]</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@carifio_resolving_2008</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@christensen_tutorial_nodate</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@harpe_how_2015-1</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@jamieson_likert_2004</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@pell_use_2005</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@taylor_rating_2022</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>@verissimo_analysis_2021</span>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
