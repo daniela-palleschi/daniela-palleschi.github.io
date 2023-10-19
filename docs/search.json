@@ -270,13 +270,13 @@
     "href": "resources.html#data-skills-with-r-and-rmarkdown",
     "title": "",
     "section": "Data Skills with R and RMarkdown",
-    "text": "Data Skills with R and RMarkdown\n\n(wickham_r_2023?): the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge\nTips for Sharing Data and Code blogpost by Lisa DeBruine\n[Tips for Sharing Code and Data.] (https://njtierney.github.io/rmd4sci/) E-book by Nicholas Tierney"
+    "text": "Data Skills with R and RMarkdown\n\nR for Data Science (Wickham et al., 2023): this E-book is a must-read for anybody new to R, or looking to brush up on their R skills\nTips for Sharing Data and Code blog post by Lisa DeBruine\nRMarkdown for Scientists E-book by Nicholas Tierney"
   },
   {
     "objectID": "resources.html#likert-scales",
     "href": "resources.html#likert-scales",
     "title": "",
     "section": "Likert scales",
-    "text": "Likert scales\n\nOn Likert Scales in R blogpost\nThe case against diverging stacked bars blogpost\nDo not use averages with Likert scale data\n(bross_using_2019?)\nAlday PM (2019). “How much baseline correction do we need in ERP, research? Extended GLM model can replace baseline correction while, lifting its limits.” Psychophysiology, 56(12), 1-14., doi:10.1111/psyp.13451 https://doi.org/10.1111/psyp.13451, PMID:, 31403187 arXiv: 1707.08152.\n(abdelrahman2002?)\n(Alday, 2019; aguinis2013?; abdelrahman2011?)\n(carifio_resolving_2008?)\n(christensen_tutorial_nodate?)\n(harpe_how_2015-1?)\n(jamieson_likert_2004?)\n(pell_use_2005?)\n(taylor_rating_2022?)\n(verissimo_analysis_2021?)"
+    "text": "Likert scales\n\nA Tutorial on fitting Cumulative Link Mixed Models with clmm2 from the ordinal Package (Christensen, 2022)\nOn Likert Scales in R blogpost by Jake Chanenson\nThe case against diverging stacked bars blogpost by Lisa Charlotte Muth and Gregor Aisch\nDo not use averages with Likert scale data short E-book by Dwight Barry\nAnalysis of rating scales: A pervasive problem in bilingualism research and a solution with Bayesian ordinal models (Veríssimo, 2021): a tutorial with code and data available on OSF"
   }
 ]
