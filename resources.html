@@ -53,7 +53,26 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+
+div.csl-bib-body { }
+div.csl-entry {
+clear: both;
+}
+.hanging-indent div.csl-entry {
+margin-left:2em;
+text-indent:-2em;
+}
+div.csl-left-margin {
+min-width:2em;
+float:left;
+}
+div.csl-right-inline {
+margin-left:2em;
+padding-left:1em;
+}
+div.csl-indent {
+margin-left: 2em;
+}</style>
 
 
 <script>const headroomChanged = new CustomEvent("quarto-hrChanged", {
@@ -4621,6 +4640,7 @@ vertical-align: -.125em;
   <li><a href="#reading" id="toc-reading" class="nav-link active" data-scroll-target="#reading">Reading</a>
   <ul class="collapse">
   <li><a href="#data-skills-with-r-and-rmarkdown" id="toc-data-skills-with-r-and-rmarkdown" class="nav-link" data-scroll-target="#data-skills-with-r-and-rmarkdown">Data Skills with R and RMarkdown</a></li>
+  <li><a href="#likert-scales" id="toc-likert-scales" class="nav-link" data-scroll-target="#likert-scales">Likert scales</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -4632,24 +4652,44 @@ vertical-align: -.125em;
 
 <section id="reading" class="level1">
 <h1>Reading</h1>
-<p>My own notes for building and maintaining reproducibile workflow in RProjects can be found <a href="https://daniela-palleschi.github.io/workflow/">here</a>, or by clicking ‘Workflow’ in the navigation bar.</p>
 <p>As researchers, it is important we plan and take into account how we analyse our data before we being data collection. I recommend the following resources for students looking to get started with linear mixed models (LMMs) in R, or for researchers looking to brush up on or expand their knowledge. If you’ve never analysed data using LMMs in R before, I’d recommend starting with the textbooks and tutorials listed. Otherwise, working through the list of “required reading” will ensure you’re aware of the advantages but also pitfalls of LMMs. I plan to add resources for Bayesian analyses soon. Full disclosure: I’m still working through some of these materials myself.</p>
+<p>My own notes for building and maintaining reproducibile workflow in RProjects can be found <a href="https://daniela-palleschi.github.io/workflow/">here</a>, or by clicking ‘Workflow’ in the navigation bar.</p>
 <section id="data-skills-with-r-and-rmarkdown" class="level2">
 <h2 class="anchored" data-anchor-id="data-skills-with-r-and-rmarkdown">Data Skills with R and RMarkdown</h2>
 <ul>
-<li><span class="citation" data-cites="wickham_r_nodate">@wickham_r_nodate</span>: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge</li>
-<li><a href="https://debruine.github.io/data-code-tips/">DeBruine, L. (2022)</a></li>
-<li>Tierney (2019), <em>Tips for Sharing Code and Data.</em> [<a href="https://njtierney.github.io/rmd4sci/">E-book</a>]</li>
-<li>@</li>
+<li><a href="https://r4ds.hadley.nz/"><em>R for Data Science</em></a> <span class="citation" data-cites="wickham_r_2023">(<a href="#ref-wickham_r_2023" role="doc-biblioref">Wickham et al., 2023</a>)</span>: this E-book is a must-read for anybody new to R, or looking to brush up on their R skills</li>
+<li><a href="https://debruine.github.io/data-code-tips/">Tips for Sharing Data and Code</a> blog post by Lisa DeBruine</li>
+<li><a href="https://njtierney.github.io/rmd4sci/"><em>RMarkdown for Scientists</em></a> E-book by Nicholas Tierney</li>
+</ul>
+</section>
+<section id="likert-scales" class="level2">
+<h2 class="anchored" data-anchor-id="likert-scales">Likert scales</h2>
+<ul>
+<li><p><a href="https://cran.r-project.org/web/packages/ordinal/vignettes/clmm2_tutorial.pdf"><em>A Tutorial on fitting Cumulative Link Mixed Models with clmm2 from the ordinal Package</em></a> <span class="citation" data-cites="christensen_tutorial_2022">(<a href="#ref-christensen_tutorial_2022" role="doc-biblioref">Christensen, 2022</a>)</span></p></li>
+<li><p><a href="https://jakec007.github.io/2021-06-23-R-likert/"><em>On Likert Scales in R</em></a> blogpost by Jake Chanenson</p></li>
+<li><p><a href="https://blog.datawrapper.de/divergingbars/"><em>The case against diverging stacked bars</em></a> blogpost by Lisa Charlotte Muth and Gregor Aisch</p></li>
+<li><p><a href="https://bookdown.org/Rmadillo/likert/"><em>Do not use averages with Likert scale data</em></a> short E-book by Dwight Barry</p></li>
+<li><p><em>Analysis of rating scales: A pervasive problem in bilingualism research and a solution with Bayesian ordinal models</em> <span class="citation" data-cites="verissimo_analysis_2021">(<a href="#ref-verissimo_analysis_2021" role="doc-biblioref">Veríssimo, 2021</a>)</span>: a tutorial with code and data available on OSF</p></li>
 </ul>
 
 
 <!-- -->
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-christensen_tutorial_2022" class="csl-entry" role="listitem">
+Christensen, R. H. B. (2022). <em>A <span>Tutorial</span> on fitting <span>Cumulative Link Mixed Models</span> with Clmm2 from the ordinal <span>Package</span></em>.
+</div>
+<div id="ref-verissimo_analysis_2021" class="csl-entry" role="listitem">
+Veríssimo, J. (2021). Analysis of rating scales: <span>A</span> pervasive problem in bilingualism research and a solution with <span>Bayesian</span> ordinal models. <em>Bilingualism: Language and Cognition</em>, <em>24</em>(5), 842–848. <a href="https://doi.org/10.1017/S1366728921000316">https://doi.org/10.1017/S1366728921000316</a>
+</div>
+<div id="ref-wickham_r_2023" class="csl-entry" role="listitem">
+Wickham, H., Çetinkaya-Rundel, M., &amp; Grolemund, G. (2023). <em>R for <span>Data Science</span></em> (2nd ed.). <a href="https://r4ds.hadley.nz/">https://r4ds.hadley.nz/</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script>
 var custom_title = document.querySelectorAll('.custom .theorem-title');
 
@@ -5057,18 +5097,35 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class>
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Reading</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>My own notes for building and maintaining reproducibile workflow in RProjects can be found <span class="co">[</span><span class="ot">here</span><span class="co">](https://daniela-palleschi.github.io/workflow/)</span>, or by clicking &#39;Workflow&#39; in the navigation bar.</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>As researchers, it is important we plan and take into account how we analyse our data before we being data collection. I recommend the following resources for students looking to get started with linear mixed models (LMMs) in R, or for researchers looking to brush up on or expand their knowledge. If you&#39;ve never analysed data using LMMs in R before, I&#39;d recommend starting with the textbooks and tutorials listed. Otherwise, working through the list of &quot;required reading&quot; will ensure you&#39;re aware of the advantages but also pitfalls of LMMs. I plan to add resources for Bayesian analyses soon. Full disclosure: I&#39;m still working through some of these materials myself.</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Skills with R and RMarkdown</span></span>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">bibliography:</span><span class="co"> references.bib</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">csl:</span><span class="co"> apa.csl</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu"># Reading</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>@wickham_r_nodate: the current edition of the classic R4DS book is a must-read for anybody new to R, or looking to spruce up their knowledge</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">DeBruine, L. (2022)</span><span class="co">](https://debruine.github.io/data-code-tips/)</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Tierney (2019), *Tips for Sharing Code and Data.* [<span class="co">[</span><span class="ot">E-book</span><span class="co">](https://njtierney.github.io/rmd4sci/)</span>]</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>@</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>As researchers, it is important we plan and take into account how we analyse our data before we being data collection. I recommend the following resources for students looking to get started with linear mixed models (LMMs) in R, or for researchers looking to brush up on or expand their knowledge. If you&#39;ve never analysed data using LMMs in R before, I&#39;d recommend starting with the textbooks and tutorials listed. Otherwise, working through the list of &quot;required reading&quot; will ensure you&#39;re aware of the advantages but also pitfalls of LMMs. I plan to add resources for Bayesian analyses soon. Full disclosure: I&#39;m still working through some of these materials myself.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>My own notes for building and maintaining reproducibile workflow in RProjects can be found <span class="co">[</span><span class="ot">here</span><span class="co">](https://daniela-palleschi.github.io/workflow/)</span>, or by clicking &#39;Workflow&#39; in the navigation bar.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Skills with R and RMarkdown</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*R for Data Science*</span><span class="co">](https://r4ds.hadley.nz/)</span> <span class="co">[</span><span class="ot">@wickham_r_2023</span><span class="co">]</span>: this E-book is a must-read for anybody new to R, or looking to brush up on their R skills</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Tips for Sharing Data and Code</span><span class="co">](https://debruine.github.io/data-code-tips/)</span> blog post by Lisa DeBruine</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*RMarkdown for Scientists*</span><span class="co">](https://njtierney.github.io/rmd4sci/)</span> E-book by Nicholas Tierney</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## Likert scales</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*A Tutorial on fitting Cumulative Link Mixed Models with clmm2 from the ordinal Package*</span><span class="co">](https://cran.r-project.org/web/packages/ordinal/vignettes/clmm2_tutorial.pdf)</span> <span class="co">[</span><span class="ot">@christensen_tutorial_2022</span><span class="co">]</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*On Likert Scales in R*</span><span class="co">](https://jakec007.github.io/2021-06-23-R-likert/)</span> blogpost by Jake Chanenson</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*The case against diverging stacked bars*</span><span class="co">](https://blog.datawrapper.de/divergingbars/)</span> blogpost by Lisa Charlotte Muth and Gregor Aisch</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">*Do not use averages with Likert scale data*</span><span class="co">](https://bookdown.org/Rmadillo/likert/)</span> short E-book by Dwight Barry</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>*Analysis of rating scales: A pervasive problem in bilingualism research and a solution with Bayesian ordinal models* <span class="co">[</span><span class="ot">@verissimo_analysis_2021</span><span class="co">]</span>: a tutorial with code and data available on OSF</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
