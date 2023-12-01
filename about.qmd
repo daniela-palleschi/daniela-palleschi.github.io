@@ -15,3 +15,18 @@ I am a co-founder and co-organiser of the Friday Primes, a monthly Berlin/Potsda
 ## Keywords
 
 psycholinguistics, language comprehension, eye-tracking during reading, self-paced reading, tense processing
+
+
+# About this website
+
+This website was built with [Quarto](https://quarto.org/docs/websites/), and contains [Quarto Books](https://quarto.org/docs/books/) for courses I've taught/am teaching. The code used to produce this website is publicly available in a [GitHub repo](https://github.com/daniela-palleschi/daniela-palleschi.github.io). I've also used the `code-tools: true` option in Quarto to make the code for each page available as a pop-up. Just look for the `</> Code` button at the top right of the page to see the relevant code in a pop-up.
+
+## Session Info
+
+Below is the session info relevant for the rendering of this website.
+
+```{r}
+#| echo: true
+sessionInfo()
+```
+

@@ -67,7 +67,7 @@
     "href": "index.html",
     "title": "Daniela Palleschi",
     "section": "",
-    "text": "twitter\n  \n  \n    \n     Github\n  \n\n  \n  \nI am currently a scientific staff member and statistics consultant at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. My research interests include the processing of temporal relations and high-level real-world knowledge, and language processing more broadly.\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmail\ndaniela.palleschi at hu-berlin dot de (N.B., I don't speak Italian!)\n\n\nSitz\nInstitut für deutsche Sprache und Linguistik, Humboldt-Universität zu Berlin, Room 3.321 (Haus 3), Dorotheenstr. 24, 10117 Berlin, Germany\n\n\n\n\n\n\n\n\nIn June 2023 I submitted my doctoral thesis!\nIn February 2023 I started a new position as a statistics consultant for the Institut für deutsche Sprache und Linguistik at the Humboldt-Universität zu Berlin."
+    "text": "Twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Google Scholar\n  \n\n  \n  \nI am currently a scientific staff member and statistics consultant at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmediyin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. My research interests include the processing of temporal relations and high-level real-world knowledge, and language processing more broadly.\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmail\ndaniela.palleschi at hu-berlin dot de (N.B., I don't speak Italian!)\n\n\nSitz\nInstitut für deutsche Sprache und Linguistik, Humboldt-Universität zu Berlin, Room 3.321 (Haus 3), Dorotheenstr. 24, 10117 Berlin, Germany\n\n\n\n\n\n\n\n\nIn June 2023 I submitted my doctoral thesis!\nIn February 2023 I started a new position as a statistics consultant for the Institut für deutsche Sprache und Linguistik at the Humboldt-Universität zu Berlin."
   },
   {
     "objectID": "index.html#contact",
@@ -278,5 +278,19 @@
     "title": "",
     "section": "Likert scales",
     "text": "Likert scales\n\nA Tutorial on fitting Cumulative Link Mixed Models with clmm2 from the ordinal Package (Christensen, 2022)\nOn Likert Scales in R blogpost by Jake Chanenson\nThe case against diverging stacked bars blogpost by Lisa Charlotte Muth and Gregor Aisch\nDo not use averages with Likert scale data short E-book by Dwight Barry\nAnalysis of rating scales: A pervasive problem in bilingualism research and a solution with Bayesian ordinal models (Veríssimo, 2021): a tutorial with code and data available on OSF"
+  },
+  {
+    "objectID": "about.html#sessioninfo",
+    "href": "about.html#sessioninfo",
+    "title": "",
+    "section": "SessionInfo()",
+    "text": "SessionInfo()\n\n\nR version 4.3.0 (2023-04-21)\nPlatform: aarch64-apple-darwin20 (64-bit)\nRunning under: macOS Ventura 13.2.1\n\nMatrix products: default\nBLAS:   /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/lib/libRblas.0.dylib \nLAPACK: /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.11.0\n\nlocale:\n[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8\n\ntime zone: Europe/Berlin\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n [1] htmlwidgets_1.6.2 compiler_4.3.0    fastmap_1.1.1     cli_3.6.1        \n [5] tools_4.3.0       htmltools_0.5.5   rstudioapi_0.14   rmarkdown_2.22   \n [9] knitr_1.44        jsonlite_1.8.7    xfun_0.39         digest_0.6.33    \n[13] rlang_1.1.1       evaluate_0.21"
+  },
+  {
+    "objectID": "about.html#session-info",
+    "href": "about.html#session-info",
+    "title": "",
+    "section": "Session Info",
+    "text": "Session Info\nBelow is the session info relevant for the rendering of this website.\n\nsessionInfo()\n\nR version 4.3.0 (2023-04-21)\nPlatform: aarch64-apple-darwin20 (64-bit)\nRunning under: macOS Ventura 13.2.1\n\nMatrix products: default\nBLAS:   /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/lib/libRblas.0.dylib \nLAPACK: /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.11.0\n\nlocale:\n[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8\n\ntime zone: Europe/Berlin\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n [1] htmlwidgets_1.6.2 compiler_4.3.0    fastmap_1.1.1     cli_3.6.1        \n [5] tools_4.3.0       htmltools_0.5.5   rstudioapi_0.14   yaml_2.3.7       \n [9] rmarkdown_2.22    knitr_1.44        jsonlite_1.8.7    xfun_0.39        \n[13] digest_0.6.33     rlang_1.1.1       evaluate_0.21"
   }
 ]

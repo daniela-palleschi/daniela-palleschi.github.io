@@ -1,16 +1,23 @@
 ---
 title: "Daniela Palleschi"
+date-modified: last-modified
 about:
   id: about-heading
   template: trestles
   image: images/profile.png
   links:
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://twitter.com/dpalleswho
     - icon: github
       text: Github
       href: https://github.com/daniela-palleschi
+    # - icon: gitlab
+    #   text: GitLab
+    #   href: https://scm.cms.hu-berlin.de/pallescd
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=3hLUG68AAAAJ&hl=en
 format:
   html:
     code-tools: false
