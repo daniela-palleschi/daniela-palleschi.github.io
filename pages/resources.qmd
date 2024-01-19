@@ -1,0 +1,24 @@
+
+# Reading
+
+As researchers, it is important we plan and take into account how we analyse our data before we being data collection. I recommend the following resources for students looking to get started with linear mixed models (LMMs) in R, or for researchers looking to brush up on or expand their knowledge. If you've never analysed data using LMMs in R before, I'd recommend starting with the textbooks and tutorials listed. Otherwise, working through the list of "required reading" will ensure you're aware of the advantages but also pitfalls of LMMs. I plan to add resources for Bayesian analyses soon. Full disclosure: I'm still working through some of these materials myself.
+
+My own notes for building and maintaining reproducibile workflow in RProjects can be found [here](https://daniela-palleschi.github.io/workflow/), or by clicking 'Workflow' in the navigation bar.
+
+## Data Skills with R and RMarkdown
+
+-   [*R for Data Science*](https://r4ds.hadley.nz/) [@wickham_r_2023]: this E-book is a must-read for anybody new to R, or looking to brush up on their R skills
+-   [Tips for Sharing Data and Code](https://debruine.github.io/data-code-tips/) blog post by Lisa DeBruine
+-   [*RMarkdown for Scientists*](https://njtierney.github.io/rmd4sci/) E-book by Nicholas Tierney
+
+## Likert scales
+
+-   [*A Tutorial on fitting Cumulative Link Mixed Models with clmm2 from the ordinal Package*](https://cran.r-project.org/web/packages/ordinal/vignettes/clmm2_tutorial.pdf) [@christensen_tutorial_2022]
+
+-   [*On Likert Scales in R*](https://jakec007.github.io/2021-06-23-R-likert/) blogpost by Jake Chanenson
+
+-   [*The case against diverging stacked bars*](https://blog.datawrapper.de/divergingbars/) blogpost by Lisa Charlotte Muth and Gregor Aisch
+
+-   [*Do not use averages with Likert scale data*](https://bookdown.org/Rmadillo/likert/) short E-book by Dwight Barry
+
+-   *Analysis of rating scales: A pervasive problem in bilingualism research and a solution with Bayesian ordinal models* [@verissimo_analysis_2021]: a tutorial with code and data available on OSF

@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Daniela Palleschi"
+  twitter-card: 
+    site: "@dpalleswho"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - pages/about.qmd
+      - href: pages/cv.qmd
+        text: CV
+      - pages/publications.qmd
+      - pages/presentations.qmd
+      - href: pages/teaching.qmd
+        text: Teaching
+      - text: "Resources"
+        menu:
+          - pages/resources.qmd
+          - href: https://daniela-palleschi.github.io/workflow/
+            text: Workflow
+    tools:
+      - icon: twitter
+        href: https://twitter.com/dpalleswho
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/daniela-palleschi/daniela-palleschi.github.io/
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - section: "Resources"
+        contents:
+          - pages/resources.qmd
+          - href: https://daniela-palleschi.github.io/workflow/
+            text: Workflow
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    code-tools: true
+    css: styles.css
+    toc: true
+    include-after-body: custom.html
+    page-layout: full
+    self-contained: true
+
+bibliography: references.bib
+csl: apa.csl
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+
+

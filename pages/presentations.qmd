@@ -1,0 +1,62 @@
+---
+title: "Presentations"
+---
+
+
+
+
+## Conference Presentations
+
+**Experimental Pragmatics Conference (XPrag)**, Pavia, Italy [2022]{style="float:right"}<br>
+***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. "Processing the Perfect Lifetime Effect: the role of lifetime information source." (poster)
+
+**Architectures and Mechanisms of Language Processing**, University of York, UK [2022]{style="float:right"} <br>
+***Palleschi, D.***, Knoeferle, P. "Availability of speaker-specific lifetime and biographical knowledge during comprehension: evidence from eye-tracking during reading." (poster)
+
+**CogSci**, Toronto, Canada [2022]{style="float:right"}<br>
+***Palleschi, D.***, Knoeferle, P. "Activation of biographical information via picture of cultural figures during comprehension: evidence from eye-tracking during reading." (poster)
+
+**IMPRS Conference**, Max Planck Institute for Psycholinguistics, the Netherlands [2022]{style="float:right"}<br>
+***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. "Context effects in the processing of temporal verb morphology: a self-paced reading study." (poster)
+
+**IMPRS Conference**, Max Planck Institute for Psycholinguistics, the Netherlands [2022]{style="float:right"}<br>
+***Palleschi, D.***, Knoeferle, P. "Effects of prior speaker-specific knowledge on language comprehension: an eye-tracking during reading study" (poster)
+
+**Experiments in Linguistic Meaning (ELM)**, University of Pennsylvania, USA [2022]{style="float:right"}<br>
+***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. "Effects of referent lifetime knowledge on processing of verb morphology." (poster)
+
+**Annual Conference of Human Sentence Processing**, UC Santa Cruz, USA [2022]{style="float:right"}<br>
+***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. "Effects of long-term biographical knowledge on the processing of temporal phrases and facts: an eye-tracking reading study." (poster)
+
+**Annual Conference of Human Sentence Processing**, UC Santa Cruz, USA [2022]{style="float:right"}<br>
+***Palleschi, D.***, Knoeferle, P. "Context effects in the processing of temporal verb morphology: a self-paced reading study." (poster)
+
+**CogSci**, Vienna, Austria[2021]{style="float:right"}<br>
+***Palleschi, D.***,Ronderos, C.R., Knoeferle, P. "Effects of lifetime and fact knowledge in language comprehension"  (poster)
+
+**CUNY Annual Conference of Human Sentence Processing**, University of Pennsylvania, USA [2021]{style="float:right"}<br>
+***Palleschi, D.***, Knoeferle, P. "Effects of lifetime and fact knowledge in
+language comprehension" (poster)
+
+**CUNY Annual Conference of Human Sentence Processing**, University of Pennsylvania, USA [2021]{style="float:right"}<br>
+***Palleschi, D.***,Ronderos, C.R., Knoeferle, P. "Effect of referent lifetime in the processing of verbal morphology: a self-paced reading study" (poster)
+
+**CUNY Annual Conference of Human Sentence Processing**, University of Massachusetts, Amherst, USA [2020]{style="float:right"}<br>
+***Palleschi, D.***,Ronderos, C.R., Knoeferle, P. "Effect of referent lifetime in the processing of verbal morphology: a self-paced reading study" (poster)
+
+**Architectures and Mechanisms of Language Processing**, Moscow, Russia [2019]{style="float:right"}<br>
+***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. "What's in a name? Integration of linguistic and non-linguistic context in language processing" (poster)
+
+**Processing Tense Workshop**, Tübingen,  [2019]{style="float:right"}<br>
+***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. "Processing the Present Perfect Lifetime Effect: an eye-tracking during reading study on the integration of context, tense, and aspect" (talk)
+
+## Invited talks
+
+**Psychosemantics group**, Universität Potsdam, Germany[2021]{style="float:right"}<br>
+"Effect of lifetime information on the processing of temporal verb morphology"
+Organiser: Prof. Nicole Gotzner
+
+**Language and Cognition Lab**, Heidelberg University, Germany[2020]{style="float:right"}<br>
+"Integration of specific world knowledge and verbal morphology during language processing"
+Organiser: Prof. Johannes Gerwien
+
