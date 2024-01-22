@@ -7,16 +7,16 @@ View PDF [here](https://github.com/daniela-palleschi/cv/blob/main/cv.pdf)
 ## Academic appointments
 
 **Statistics consultant and Scientific staff member (wiss. Mitarbeiterin)** [2023 - present]{style="float:right"}<br>
-Humboldt-Universität zu Berlin, Institute for German Langauge and Linguisitics 
+Humboldt-Universität zu Berlin, Institute for German Langauge and Linguistics 
 <br>
 
 **Research Fellow (wiss. Mitarbeiterin)** [2019 - 2023]{style="float:right"}  <br> 
-Humboldt-Universität zu Berlin, Institute for German Langauge and Linguisitics <br>
+Humboldt-Universität zu Berlin, Institute for German Langauge and Linguistics <br>
 DFG Grant KN 897/9-1: ‘Effects of lifetime and fact knowledge in language comprehension’
 
 ## Education
 
-**Humboldt-Universität zu Berlin**, Institute for German Langauge and Linguisitics [2018 - present]{style="float:right"}<br> 
+**Humboldt-Universität zu Berlin**, Institute for German Langauge and Linguistics [2018 - present]{style="float:right"}<br> 
 Doctoral candidate in Psycholinguistics
 
 **Berlin School of Mind and Brain**, Humboldt-Universität zu Berlin [2017 - present]{style="float:right"}<br>
@@ -26,13 +26,13 @@ Doctoral student
 Doctoral fellow
 
 **University of Eastern Finland (FI), University of Potsdam (DE), University of Groningen (NL)** <br>
- M.Sc. in Clinical Linguisitics (Erasmus Mundus joint Master Degree) [2017]{style="float:right"}
+ M.Sc. in Clinical Linguistics (Erasmus Mundus joint Master Degree) [2017]{style="float:right"}
 
 **University of Finland** <br>
-M.A. in Clinical Linguisitics [2017]{style="float:right"}
+M.A. in Clinical Linguistics [2017]{style="float:right"}
 
 **University of Toronto** <br>
-B.A. Honours Specialist in Linguisitics [2012]{style="float:right"}
+B.A. Honours Specialist in Linguistics [2012]{style="float:right"}
 
 ## Awards and Fellowships
 
@@ -43,11 +43,14 @@ Doctoral scholarship
 
 See [Teaching](https://daniela-palleschi.github.io/teaching.html)
 
-**Reproducible analysis reports with eye-tracking reading time data** [2023]{style="float:right"}<br>
+**Regression for Linguists** [2023/24]{style="float:right"}<br>
 M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
 
-**Angewandte Datenverarbeitung und Visualisierung** [2023]{style="float:right"}<br>
+**Angewandte Datenverarbeitung und Visualisierung** [2023-2024]{style="float:right"}<br>
 B.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
+
+**Reproducible analysis reports with eye-tracking reading time data** [2023]{style="float:right"}<br>
+M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
 
 **Introduction to Ibex and PennController: Internet-based experiments** (workshop) [2020]{style="float:right"}<br>
 Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
