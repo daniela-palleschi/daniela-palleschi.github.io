@@ -36,7 +36,7 @@ pacman::p_load(tidyverse, knitr, kableExtra)
 tribble(
   ~"", ~"",
   "Email", "daniela.palleschi at hu-berlin dot de (N.B., I don't speak Italian!)",
-  "Sitz", "Institut für deutsche Sprache und Linguistik, Humboldt-Universität zu Berlin, Room 3.321 (Haus 3), Dorotheenstr. 24, 10117 Berlin, Germany"
+  "Sitz", "Institut für deutsche Sprache und Linguistik, Humboldt-Universität zu Berlin, Room 3.401 (Haus 3), Dorotheenstr. 24, 10117 Berlin, Germany"
 ) %>% 
   kable() %>% 
   kable_styling(bootstrap_options = "hover",
