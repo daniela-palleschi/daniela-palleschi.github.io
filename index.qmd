@@ -12,9 +12,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/daniela-palleschi
-    # - icon: gitlab
-    #   text: GitLab
-    #   href: https://scm.cms.hu-berlin.de/pallescd
+    - icon: gitlab
+      text: GitLab
+      href: https://scm.cms.hu-berlin.de/pallescd
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?user=3hLUG68AAAAJ&hl=en
@@ -31,19 +31,24 @@ I am currently a scientific staff member and statistics consultant at the Instit
 ## Contact
 
 ```{r}
-pacman::p_load(tidyverse, knitr, kableExtra)
+pacman::p_load(tidyverse, gt)
 
 tribble(
-  ~"", ~"",
+  ~"x", ~"y",
   "Email", "daniela.palleschi at hu-berlin dot de (N.B., I don't speak Italian!)",
   "Sitz", "Institut für deutsche Sprache und Linguistik, Humboldt-Universität zu Berlin, Room 3.401 (Haus 3), Dorotheenstr. 24, 10117 Berlin, Germany"
 ) %>% 
-  kable() %>% 
-  kable_styling(bootstrap_options = "hover",
-                stripe_color = NA)
+  gt() |> 
+  tab_options(column_labels.hidden = TRUE)
 ```
 
 ## News
+
+In **August 2024** I will be giving a workshop at the [Summer School of Linguistics](https://ssol.ff.cuni.cz/ssol-2024/) entitled *Open Science Practices for Linguistic Research: Reproducible Analyses in R* in České Budějovice (Budweis), Czechia.
+
+In **May 2024** I will be giving a talk entitled *Elvis is dead: lifeme-tense congruence effects for the past, present (perfect), and future* at [Chronos 15](https://chronos15.sciencesconf.org/) in Toulouse, France.
+
+On **April 8th, 2024** I will defend my doctoral thesis! The defence will public and hybrid. If you would like to attend in person or over Zoom, find more information [here](https://fakultaeten.hu-berlin.de/de/sprachlit/akad_ang/promotion).
 
 In **June 2023** I submitted my [doctoral thesis](https://twitter.com/dpalleswho/status/1671621403240480774)!
 
