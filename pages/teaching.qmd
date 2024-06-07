@@ -4,7 +4,7 @@ title: "Teaching"
 
 ## Upcoming courses (Summer Semester 2024)
 
-- [Open Science Practices: Implementing a Reproducible Analysis Workflow](https://daniela-palleschi.github.io/r4repro/) (M.A.)
+- [Open Science Practices: Implementing a Reproducible Analysis Workflow](https://daniela-palleschi.github.io/r4reproducibility/) (M.A.)
 - [Angewandte Datenverarbeitung und Visualisierung: R für Linguistik und Sozialwissenschaften (EN: Applied data analysis and visualisation: R for linguists and social sciences)](https://daniela-palleschi.github.io/r4ling/) (B.A.)
 
 ## Past courses

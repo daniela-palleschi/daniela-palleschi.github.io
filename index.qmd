@@ -44,11 +44,13 @@ tribble(
 
 ## News
 
+In **September 2024** I will be presenting a poster at the 30th [AMLaP](https://amlap2024.ed.ac.uk/) (Architectures and Mechanisms for Language Processing) in Edinburgh, Scotland.
+
 In **August 2024** I will be giving a workshop at the [Summer School of Linguistics](https://ssol.ff.cuni.cz/ssol-2024/) entitled *Open Science Practices for Linguistic Research: Reproducible Analyses in R* in České Budějovice (Budweis), Czechia.
 
-In **May 2024** I will be giving a talk entitled *Elvis is dead: lifeme-tense congruence effects for the past, present (perfect), and future* at [Chronos 15](https://chronos15.sciencesconf.org/) in Toulouse, France.
+In **May 2024** I gave a talk entitled *Elvis is dead: lifeme-tense congruence effects for the past, present (perfect), and future* at [Chronos 15](https://chronos15.sciencesconf.org/) in Toulouse, France. The abstract for the talk is on pages 27-28 in the [book of abstracts](https://chronos15.sciencesconf.org/data/pages/book_chronos15.pdf).
 
-On **April 8th, 2024** I will defend my doctoral thesis! If you would like to attend in person, find more information [here](https://fakultaeten.hu-berlin.de/de/sprachlit/akad_ang/promotion).
+On **April 8th, 2024** I successfully defended my doctoral thesis!
 
 In **June 2023** I submitted my [doctoral thesis](https://twitter.com/dpalleswho/status/1671621403240480774)!
 

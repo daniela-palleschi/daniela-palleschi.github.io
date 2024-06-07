@@ -2,15 +2,18 @@
 title: "Presentations"
 ---
 
-
-
-
 ## Conference Presentations
+
+**Architectures and Mechanisms of Language Processing (AMLaP)**, Edinburgh, Scotland [2024 (forthcoming)]{style="float:right"}<br>
+***Palleschi, D.***, Husband, M., Knoeferle, P. "Prior versus newly learned world knowledge in recall and online comprehension: an eye-tracking reading study" (poster)
+
+**15th International Conference on Actionality, Tense, Aspect, Modality/Evidentiality (CHRONOS 15)**, Toulouse, France [2024]{style="float:right"}<br>
+***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. "Elvis is dead: lifeme-tense congruence effects for the past, present (perfect), and future" (talk) ([book of abstracts (p.27-8)](https://chronos15.sciencesconf.org/data/pages/book_chronos15.pdf))
 
 **Experimental Pragmatics Conference (XPrag)**, Pavia, Italy [2022]{style="float:right"}<br>
 ***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. "Processing the Perfect Lifetime Effect: the role of lifetime information source." (poster)
 
-**Architectures and Mechanisms of Language Processing**, University of York, UK [2022]{style="float:right"} <br>
+**Architectures and Mechanisms of Language Processing (AMLaP)**, University of York, UK [2022]{style="float:right"} <br>
 ***Palleschi, D.***, Knoeferle, P. "Availability of speaker-specific lifetime and biographical knowledge during comprehension: evidence from eye-tracking during reading." (poster)
 
 **CogSci**, Toronto, Canada [2022]{style="float:right"}<br>

@@ -2,6 +2,10 @@
 title: "Publications"
 ---
 
+## Peer-reviewed journal publications
+
+**Palleschi, D.**, Ronderos, C.R., Knoeferle, P. (under review). "Living in the present - how referent lifetime influences processing of past, present (perfect), and future tenses"
+
 ## Peer-reviewed Conference Proceedings
 
 \begingroup
@@ -9,14 +13,10 @@ title: "Publications"
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
 
-***Palleschi, D.***, Knoeferle, P. (2022). “Activation of biographical information via picture of cultural figures: an eye-tracking during reading study” *Proceedings of the 42nd
+**Palleschi, D.**, Knoeferle, P. (2022). “Activation of biographical information via picture of cultural figures: an eye-tracking during reading study” *Proceedings of the 42nd
 Annual Meeting of the Cognitive Science Society.* Toronto, Canada: Cognitive Science Society
 
-***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. (2020). “Effects of linguistic context and world knowledge on the processing of tense and aspect: evidence from eye-tracking” *Proceedings of the 42nd
+**Palleschi, D.**, Ronderos, C.R., Knoeferle, P. (2020). “Effects of linguistic context and world knowledge on the processing of tense and aspect: evidence from eye-tracking” *Proceedings of the 42nd
 Annual Meeting of the Cognitive Science Society.* Toronto, Canada: Cognitive Science Society
 
 \endgroup
-
-## Works in Progress
-
-***Palleschi, D.***, Ronderos, C.R., Knoeferle, P. “Dead or alive - Effect of lifetime information on processing of temporal verb morphology: evidence from eye-tracking and self-paced reading”
