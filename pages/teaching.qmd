@@ -2,24 +2,45 @@
 title: "Teaching"
 ---
 
-## Upcoming courses (Summer Semester 2024)
-
-- [Open Science Practices: Implementing a Reproducible Analysis Workflow](https://daniela-palleschi.github.io/r4reproducibility/) (M.A.)
-- [Angewandte Datenverarbeitung und Visualisierung: R für Linguistik und Sozialwissenschaften (EN: Applied data analysis and visualisation: R for linguists and social sciences)](https://daniela-palleschi.github.io/r4ling/) (B.A.)
-
-## Past courses
-
-All courses listed were taught at the Institut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin, in addition to any other institutes given.
-
 ```{r}
 # load packages
 pacman::p_load(tidyverse, knitr, kableExtra, gt)
 ```
 
+## Workshops
+
+```{r}
+# workshop courses
+tribble(
+  ~ "Year", ~ "Workshop title", ~ "Institution", ~ "Link", 
+  "2024", "Open Science Practices for Linguistic Research: Reproducible Analyses in R", "<a href = 'https://ssol.ff.cuni.cz/ssol-2024/'>Summer School of Linguistics</a> at the University of South Bohemia in České Budějovice (Budweis), Czechia", "https://daniela-palleschi.github.io/SSOL24-reproducibility-workshop/",
+  "2020", "Introduction to Ibex and PennController: Internet Based Experiments", "Institut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin", "https://box.hu-berlin.de/d/ff964c88ad9c47e781b5/"
+) %>%
+  mutate(Institution = map(Institution, gt::html)) %>%
+  mutate(
+    `Workshop title` = ifelse(
+      Link == "NA",
+      `Workshop title`,
+      glue::glue("[{`Workshop title`}]({Link})")
+    ),
+    `Workshop title` = map(`Workshop title`, gt::md)
+  ) %>%
+  select(-Link) %>%
+  gt() %>%
+  cols_align(align = "left",
+             columns = everything())
+```
+
+## Semester-length courses
+
+All courses listed were taught at the Institut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin, in addition to any other institutes given.
+
 ```{r}
 # past IdSL courses
 tribble(
   ~"Year", ~"Semester", ~"Course title", ~"Level", ~"Link",
+  "2024", "SoSe", "Open Science Practices: Implementing a Reproducible Analysis Workflow", "M.A.","https://daniela-palleschi.github.io/r4reproducibility/",
+  "2024", "SoSe", "Angewandte Datenverarbeitung und Visualisierung: R für Linguistik und Sozialwissenschaften (EN: Applied data analysis and visualisation: R for linguists and social sciences)", "B.A.","https://daniela-palleschi.github.io/r4ling/",
   "2023/24", "WiSe", "Regression for Linguists", "M.A.","https://daniela-palleschi.github.io/reg4ling/",
   "2023", "SoSe", "Angewandte Datenanalyse und -visualisierung (EN: Applied data analysis and visualisation)", "B.A.", "https://daniela-palleschi.github.io/r4ling/",
   "2023", "SoSe", "Reproducible analyses for eye-tracking reading data", "M.A.", "https://daniela-palleschi.github.io/repo-eda/",
@@ -43,26 +64,6 @@ tribble(
 ```
 
 
-## Workshops
 
-```{r}
-# workshop courses
-tribble(
-  ~ "Year", ~ "Workshop title", ~ "Institution", ~ "Link", 
-  "2020", "Introduction to Ibex and PennController: Internet Based Experiments", "Institut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin", "https://box.hu-berlin.de/d/ff964c88ad9c47e781b5/"
-) %>%
-  mutate(
-    `Workshop title` = ifelse(
-      Link == "NA",
-      `Workshop title`,
-      glue::glue("[{`Workshop title`}]({Link})")
-    ),
-    `Workshop title` = map(`Workshop title`, gt::md)
-  ) %>%
-  select(-Link) %>%
-  gt() %>%
-  cols_align(align = "left",
-             columns = everything())
-```
 
 

@@ -41,7 +41,7 @@ Doctoral scholarship
 
 ## Teaching Experience
 
-See [Teaching](https://daniela-palleschi.github.io/teaching.html)
+See [Teaching](https://daniela-palleschi.github.io/pages/teaching.html)
 
 **Regression for Linguists** [2023/24]{style="float:right"}<br>
 M.A. course, Institute for German Language and Linguistics, Humboldt-Universität zu Berlin
@@ -72,11 +72,11 @@ SOL International School of Language, Toronto, Canada
 
 ## Publications
 
-See [Publications](https://daniela-palleschi.github.io/publications.html)
+See [Publications](https://daniela-palleschi.github.io/pages/publications.html)
 
 ## Presentations
 
-See [Presentations](https://daniela-palleschi.github.io/presentations.html)
+See [Presentations](https://daniela-palleschi.github.io/pages/presentations.html)
 
 ## Workshops, summer schools, journal clubs (attendance)
 
