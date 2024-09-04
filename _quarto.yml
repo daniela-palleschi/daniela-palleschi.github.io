@@ -45,9 +45,9 @@ format:
       light: flatly
       dark: darkly
     code-tools: true
-    css: styles.css
+    # css: styles.css
     toc: true
-    include-after-body: custom.html
+    # include-after-body: custom.html
     page-layout: full
     self-contained: true
 
