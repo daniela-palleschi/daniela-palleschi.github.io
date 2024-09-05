@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
 
 website:
   title: "Daniela Palleschi"
@@ -58,6 +58,7 @@ execute:
   echo: false
   warning: false
   message: false
+  freeze: auto # re-render only when source code changes, e.g., https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/posts/03-freeze/
 
 
 
