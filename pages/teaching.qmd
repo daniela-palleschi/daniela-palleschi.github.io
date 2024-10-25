@@ -3,6 +3,7 @@ title: "Teaching"
 ---
 
 ```{r}
+#| message: false
 # load packages
 pacman::p_load(tidyverse, knitr, kableExtra, gt)
 ```
@@ -13,10 +14,11 @@ pacman::p_load(tidyverse, knitr, kableExtra, gt)
 # workshop courses
 tribble(
   ~ "Year", ~ "Workshop title", ~ "Institution", ~ "Link", 
+  "2024", "Reproducible Workflow in R", "<a href = 'https://www.leibniz-zas.de/de/'>Leibniz Institut for General Linguistics</a> (Leibniz-Zentrum Allgemeine Sprachwissenschaft (ZAS)), Berlin, Germany", "https://daniela-palleschi.github.io/zas-reproducibility-2024/",
   "2024", "Open Science Practices for Linguistic Research: Reproducible Analyses in R", "<a href = 'https://ssol.ff.cuni.cz/ssol-2024/'>Summer School of Linguistics</a> at the University of South Bohemia in České Budějovice (Budweis), Czechia", "https://daniela-palleschi.github.io/SSOL24-reproducibility-workshop/",
   "2020", "Introduction to Ibex and PennController: Internet Based Experiments", "Institut für deutsche Sprache und Linguistik (Department of German Language and Linguistics), Humboldt-Universität zu Berlin", "https://box.hu-berlin.de/d/ff964c88ad9c47e781b5/"
-) %>%
-  mutate(Institution = map(Institution, gt::html)) %>%
+) |>
+  mutate(Institution = map(Institution, gt::html)) |>
   mutate(
     `Workshop title` = ifelse(
       Link == "NA",
@@ -24,11 +26,11 @@ tribble(
       glue::glue("[{`Workshop title`}]({Link})")
     ),
     `Workshop title` = map(`Workshop title`, gt::md)
-  ) %>%
-  select(-Link) %>%
-  gt() %>%
+  ) |>
+  select(-Link) |>
+  gt()  |> 
   cols_align(align = "left",
-             columns = everything())
+             columns = everything()) 
 ```
 
 ## Semester-length courses
@@ -49,21 +51,17 @@ tribble(
   "2019", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)", "NA",
   "2018/19", "WiSe", "Introduction to Statistics for Linguistics with R and RStudio", "M.A.", "NA",
   "2018", "SoSe", "Language and the Brain (Tutorial)", "M.A. (Berlin School of Mind and Brain)", "NA"
-  ) %>% 
+  ) |> 
   mutate(
     `Course title` = ifelse(Link=="NA", `Course title`, glue::glue("[{`Course title`}]({Link})")),
-        `Course title` = map(`Course title`, gt::md)) %>% 
-  select(-Link) %>% 
-  gt() %>% 
+        `Course title` = map(`Course title`, gt::md)) |> 
+  select(-Link) |> 
+  gt() |>  
   cols_align(
     align = "left",
     columns = everything()
-  )
+  ) 
 
 ## solution for adding hyperlinks to tibbles: https://community.rstudio.com/t/create-interactive-links-in-gt-table-in-rmarkdown/70266/2
 ```
-
-
-
-
 
