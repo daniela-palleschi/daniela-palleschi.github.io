@@ -26,7 +26,8 @@ format:
 
 :::{#about-heading}
 
-I am currently a scientific staff member and statistics consultant at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin. I am also a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmedizin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. My research interests include the processing of temporal relations and high-level real-world knowledge, and language processing more broadly.
+
+I am currently a scientific support staff member for data science and data management support at the [Leibniz-Centre General Linguistics](https://www.leibniz-zas.de/de/) (ZAS: Leibniz-Zentrum Allgemeine Sprachwissenschaft). I was formerly a scientific staff member (research staff) and statistics consultant at the Institute of German Language and Linguistics at the Humboldt-Universität zu Berlin where I also completed my doctorate under the supervision of Prof. Pia Knoeferle. During my PhD I was a doctoral fellow at the Einstein Center for Neurosciences at the Charité - Universitätsmedizin Berlin, and part of the doctoral program at the Berlin School of Mind and Brain. My research interests include the processing of temporal relations and high-level real-world knowledge, and language processing more broadly.
 
 ## Contact
 
@@ -35,8 +36,8 @@ pacman::p_load(tidyverse, gt)
 
 tribble(
   ~"x", ~"y",
-  "Email", "daniela.palleschi at hu-berlin dot de (N.B., I don't speak Italian!)",
-  "Sitz", "Institut für deutsche Sprache und Linguistik, Humboldt-Universität zu Berlin, Room 3.401 (Haus 3), Dorotheenstr. 24, 10117 Berlin, Germany"
+  "Email", "palleschi [at] leibniz [dash] zas [dot] de (N.B., I don't speak Italian!)",
+  "Sitz", "Room 1.08, Leibniz-Zentrum Allgemeine Sprachwissenschaft (ZAS), Pariser Str. 1, 10719 Berlin"
 ) %>% 
   gt() |> 
   tab_options(column_labels.hidden = TRUE)
@@ -44,7 +45,9 @@ tribble(
 
 ## News
 
-In **September 2024** I will be presenting a poster at the 30th [AMLaP](https://amlap2024.ed.ac.uk/) (Architectures and Mechanisms for Language Processing) in Edinburgh, Scotland.
+On **September 1st, 2024** I started a new position at the [Leibniz-Centre General Linguistics](https://www.leibniz-zas.de/de/) (ZAS: Leibniz-Zentrum Allgemeine Sprachwissenschaft) as research support staff for data science and data management.
+
+In **September 2024** I will have a poster at the 30th [AMLaP](https://amlap2024.ed.ac.uk/) (Architectures and Mechanisms for Language Processing) in Edinburgh, Scotland.
 
 In **August 2024** I will be giving a workshop at the [Summer School of Linguistics](https://ssol.ff.cuni.cz/ssol-2024/) entitled *Open Science Practices for Linguistic Research: Reproducible Analyses in R* in České Budějovice (Budweis), Czechia.
 
