@@ -47,9 +47,9 @@ tribble(
 
 On **September 1st, 2024** I started a new position at the [Leibniz-Centre General Linguistics](https://www.leibniz-zas.de/de/) (ZAS: Leibniz-Zentrum Allgemeine Sprachwissenschaft) as research support staff for data science and data management.
 
-In **September 2024** I will have a poster at the 30th [AMLaP](https://amlap2024.ed.ac.uk/) (Architectures and Mechanisms for Language Processing) in Edinburgh, Scotland.
+In **September 2024** I had a poster at the 30th [AMLaP](https://amlap2024.ed.ac.uk/) (Architectures and Mechanisms for Language Processing) in Edinburgh, Scotland.
 
-In **August 2024** I will be giving a workshop at the [Summer School of Linguistics](https://ssol.ff.cuni.cz/ssol-2024/) entitled *Open Science Practices for Linguistic Research: Reproducible Analyses in R* in České Budějovice (Budweis), Czechia.
+In **August 2024** I gave a workshop at the [Summer School of Linguistics](https://ssol.ff.cuni.cz/ssol-2024/) entitled *Open Science Practices for Linguistic Research: Reproducible Analyses in R* in České Budějovice (Budweis), Czechia.
 
 In **May 2024** I gave a talk entitled *Elvis is dead: lifeme-tense congruence effects for the past, present (perfect), and future* at [Chronos 15](https://chronos15.sciencesconf.org/) in Toulouse, France. The abstract for the talk is on pages 27-28 in the [book of abstracts](https://chronos15.sciencesconf.org/data/pages/book_chronos15.pdf).
 
