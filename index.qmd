@@ -45,6 +45,8 @@ tribble(
 
 ## News
 
+I am on parental leave from **October 2024 until October 2025**.
+
 On **September 1st, 2024** I started a new position at the [Leibniz-Centre General Linguistics](https://www.leibniz-zas.de/de/) (ZAS: Leibniz-Zentrum Allgemeine Sprachwissenschaft) as research support staff for data science and data management.
 
 In **September 2024** I had a poster at the 30th [AMLaP](https://amlap2024.ed.ac.uk/) (Architectures and Mechanisms for Language Processing) in Edinburgh, Scotland.
