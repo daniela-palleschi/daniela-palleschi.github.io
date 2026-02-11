@@ -45,7 +45,9 @@ tribble(
 
 ## News
 
-I am on parental leave from **October 2024 until October 2025**.
+In **May 2025** I had a [new article published](https://doi.org/10.5070/G6011.19481) in *Glossa Pscycholinguistics*.
+
+I was on parental leave from **October 2024 until December 2025**.
 
 On **September 1st, 2024** I started a new position at the [Leibniz-Centre General Linguistics](https://www.leibniz-zas.de/de/) (ZAS: Leibniz-Zentrum Allgemeine Sprachwissenschaft) as research support staff for data science and data management.
 

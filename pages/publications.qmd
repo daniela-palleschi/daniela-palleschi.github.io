@@ -4,7 +4,16 @@ title: "Publications"
 
 ## Peer-reviewed journal publications
 
-**Palleschi, D.**, Ronderos, C.R., Knoeferle, P. (under review). "Living in the present - how referent lifetime influences processing of past, present (perfect), and future tenses"
+\begingroup
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+**Palleschi, D.**, Ronderos, C. R., & Knoeferle, P. (2025). Living in the present: how referent lifetime influences processing of past, present (perfect), and future tenses. *Glossa Psycholinguistics*, 4(1). [https://doi.org/10.5070/G6011.19481](https://doi.org/10.5070/G6011.19481)
+
+**Palleschi, D.**, Ronderos, C. R., Knoeferle, P. (accepted). Contrasting different context sources in processing lifetime-tense (in)congruence: Evidence from cumulative self-paced reading time experiments. *Language & Cognition*. 
+
+**Palleschi, D.**, Husband, E. M., Knoeferle, P. (under review). Prior and new knowledge in language comprehension: referent lifetime status versus biographical accomplishments. 
 
 ## Peer-reviewed Conference Proceedings
 
