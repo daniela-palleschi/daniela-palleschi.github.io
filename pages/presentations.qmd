@@ -4,7 +4,7 @@ title: "Presentations"
 
 ## Conference Presentations
 
-**Architectures and Mechanisms of Language Processing (AMLaP)**, Edinburgh, Scotland [2024 (forthcoming)]{style="float:right"}<br>
+**Architectures and Mechanisms of Language Processing (AMLaP)**, Edinburgh, Scotland [2024]{style="float:right"}<br>
 ***Palleschi, D.***, Husband, M., Knoeferle, P. "Prior versus newly learned world knowledge in recall and online comprehension: an eye-tracking reading study" (poster)
 
 **15th International Conference on Actionality, Tense, Aspect, Modality/Evidentiality (CHRONOS 15)**, Toulouse, France [2024]{style="float:right"}<br>

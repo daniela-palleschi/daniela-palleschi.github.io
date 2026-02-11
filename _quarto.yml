@@ -10,6 +10,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: https://daniela-palleschi.github.io/blog/
+        text: Blog
       - pages/about.qmd
       - href: pages/cv.qmd
         text: CV
